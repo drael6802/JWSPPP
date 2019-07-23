@@ -1,0 +1,162 @@
+/**
+ * 
+ */
+
+ $(document).ready(function(){
+	 
+	 //옵션 체크 박스 
+	 $(document).on("click", "#optionCheckbox", function(){
+		 
+		 var isChecked = $('#optionCheckbox').is(':checked');
+		 if(isChecked){
+			 $(".optionName").prop("disabled",false); 
+			 $("#optionBtn").prop("disabled",false); 
+		 }
+		 else{
+			 $('.optionDIV').remove();
+			 $(".optionName").prop("disabled",true); 
+			 $("#optionBtn").prop("disabled",true); 
+		 }
+	 });
+	 //옵션 추가 버튼
+	 $(document).on("click", "#optionBtn", function(){
+		 var num = $(".optionName").length;
+		 if(num<5){
+			var str= '';
+		 	str += '<div class="optionDIV"><input type="text" class="optionName" id="options0'+ ($('.optionName').length+1) +'" name="'+ ($('.optionName').length+1) +'" style="width: 60%;" /><input type="button" class="optionBtn" value="삭제" /><div>';
+		 	$('#optionDIV').append(str);
+		 }else {
+			 alert('싫어');
+		 }
+	 });
+	 
+	 //옵션 삭제 버튼
+	 $(document).on('click','.optionBtn', function(){
+		 $(this).parent().remove();
+	 });
+	 
+	 //카테고리 셀렉트 박스 2  Change
+	 $(document).on("change", "#categorySelectBox", function(){
+		 var categorySelectBox = $('#categorySelectBox').val();
+		 $('#category02SelectBox').remove();
+		 if (categorySelectBox == '카테고리') {
+			$('#category02SelectBox').remove();
+			$('#category03SelectBox').remove();
+			$('#categorySelectBox').parent().css('padding-left', '10%');
+			
+		 }else if($('#category02SelectBox').val() == null) {
+			 var categoryCode = $('#categorySelectBox option:selected').attr('id');
+			 $.ajax({
+					url: 'category02.do',
+					type: 'post',
+					data: {categoryCode},
+					success: function(result) {
+						var str= '';
+						str += '<select id="category02SelectBox" class="">';
+						str += '<option id="">카테고리2</option>';
+						$.each(result, function(index, element){	       	
+							str += '<option id="'+ result[index].category02Code +'">'+ result[index].category02Name +'</option>';
+						});
+						str += '</select>';
+						$('#categorySelectBox').parent().append(str);   
+						$('#categorySelectBox').parent().css('padding-left', '0%');
+					},
+					error: function(){
+						alert('fail');
+					}
+			});
+		}
+	 });
+	 //카테고리 셀렉트 박스 3  Change	 
+	 $(document).on("change", "#category02SelectBox", function(){
+		 var category02SelectBox = $('#category02SelectBox').val();
+		 $('#category03SelectBox').remove();
+		
+		 if (category02SelectBox == '카테고리2') {
+			$('#category03SelectBox').remove();
+			$('#categorySelectBox').parent().css('padding-left', '10%');
+			
+		 }else if($('#category03SelectBox').val() == undefined ) {
+			 var category02Code = $('#category02SelectBox option:selected').attr('id');
+			 $.ajax({
+					url: 'category03.do',
+					type: 'post',
+					data: {category02Code},
+					success: function(result) {
+						var str= '';
+						str += '<select id="category03SelectBox" class="" name="">';
+						str += '<option id="">카테고리3</option>';
+						$.each(result, function(index, element){	       	
+							str += '<option id="'+ result[index].category03Code +'" name="'+ result[index].category03Code +'" >'+ result[index].category03Name +'</option>';
+						});
+						str += '</select>';
+						$('#categorySelectBox').parent().append(str);  
+						$('#categorySelectBox').parent().css('padding-left', '0%');
+						 $('#category03CodeCode').val(category03Code);
+					},
+					error: function(){
+						alert('fail');
+					}
+			});
+		}
+	 });
+	 
+	 // 카테고리 03 작동시 
+	 $(document).on("change", "#category03SelectBox", function(){
+	 var category03Code = $('#category03SelectBox option:selected').attr('id');
+		alert(category03Code);
+	 });
+	 
+	 //아이템 추가 버튼 작동
+	 $(document).on('click','#submitBtn',function(){
+		 var itemName = $('#itemName').val();
+		 var itemPrice = $('#itemPrice').val();
+		 var itemInventory = $('#itemInventory').val();
+		 var itemImage = $('#itemImage').val();
+		 var itemThumbnail = $('#itemThumbnail').val();
+		 var itemDiscount = $('#itemDiscount').val();
+		 var itemContent = $('#itemContent').val();
+		 var category03Code = $('#category03SelectBox :checked').attr('id');
+		 
+		 var options01 = $('#options01').val();
+		 var options02 = $('#options02').val();
+		 var options03 = $('#options03').val();
+		 var options04 = $('#options04').val();
+		 var options05 = $('#options05').val();
+		 
+		 alert(
+				 ' itemName = ' + itemName +
+				 '\n itemPrice = ' + itemPrice +
+				 '\n itemInventory = ' + itemInventory +
+				 '\n itemImage = ' + itemImage +
+				 '\n itemThumbnail = ' + itemThumbnail +
+				 '\n itemDiscount = ' + itemDiscount +
+				 '\n itemContent = ' + itemContent +
+				 '\n category03Code = ' + category03Code +
+				 '\n options01 = ' + options01 +
+				 '\n options02 = ' + options02 +
+				 '\n options03 = ' + options03 +
+				 '\n options04 = ' + options04 +
+				 '\n options05 = ' + options05 
+		 );
+		 
+		 var isReg = confirm('등록 하시겠습니까?.');
+		 
+		 if (isReg) {
+			 
+			 $.ajax({
+					url: 'itemRegistrationProc.do',
+					type: 'post',
+					data: {itemName ,itemPrice ,itemInventory ,itemImage ,itemThumbnail ,itemDiscount ,itemContent ,category03Code ,options01 ,options02 ,options03 ,options04 ,options05 },
+					success: function(result) {
+				             
+					},
+					error: function(){
+						alert('fail');
+					}
+				});
+
+		}
+	 });
+	 
+ });

@@ -1,0 +1,109 @@
+package com.spring.view;
+
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.spring.biz.UserService;
+import com.spring.biz.vo.UserVO;
+
+@Controller
+public class UserController {
+	@Resource(name = "UserService")
+	UserService userService;
+	
+	String viewPage = "viewPage";
+	String viewTemplate = "/jsp/Template_main.jsp";
+	String subViewTemplate = "/jsp/Template_sub.jsp";
+	
+	/*
+	@RequestMapping(value = "/test")
+	public String test() {
+		System.out.println("==========>test");
+		model.addAttribute(viewPage, "test.jsp");
+		return viewTemplate;
+	}
+	*/
+	
+	//로그인 폼 이동
+	@RequestMapping(value = "/userLogin.do")
+	public String userLogin(Model model ) {
+		System.out.println("==========>userLogin");
+		model.addAttribute(viewPage, "user_login.jsp");
+		return viewTemplate;
+	}
+
+	//로그인 폼 프로세스
+	@RequestMapping(value = "/userLoginProc.do")
+	public String userLoginProc(Model model , UserVO vo , HttpSession session) {
+		System.out.println("==========>userLogin");
+		model.addAttribute(viewPage, "user_login.jsp");
+		
+		
+		vo = userService.loginUser(vo);
+
+			if (vo != null) {
+				session.setAttribute("userInfo", vo);
+				System.out.println( "세션값 = " + session.getId());
+				return "templateMain.do";
+			}
+		return viewTemplate;
+	}
+	
+	//로그아웃 프로세스 logout.do
+	@RequestMapping(value = "/userLogout.do")
+	public String userLogout(Model model , HttpSession session) {
+		System.out.println("==========>userLogout");
+		session.invalidate();
+		return templateMain.do;
+	}
+	
+	//회원가입 폼 이동
+	@RequestMapping(value = "/userJoin.do")
+	public String userJoin(Model model ) {
+		System.out.println("==========>userJoin");
+		model.addAttribute(viewPage, "user_join.jsp");
+		return viewTemplate;
+	}
+	
+	//회원가입 ID 중복체크 프로세스
+	@ResponseBody
+	@RequestMapping(value = "/idCheck.do")
+	public String idCheck(UserVO vo) {
+		System.out.println("==========>idCheck");
+		vo = userService.idChcek(vo);
+		
+		if (vo == null || "".equals(vo)) {
+			return null;
+		}else {
+			return vo.getUserId();
+		}
+	}
+	
+	//회원가입 폼 프로세스
+	@ResponseBody
+	@RequestMapping(value = "/userJoinProc.do")
+	public int userJoinProc(Model model , UserVO vo ) {
+		System.out.println("==========>userJoin");
+		model.addAttribute(viewPage, "shop_main.jsp");
+		int result = userService.insertUser(vo);
+		System.out.println(vo.getUserId());
+		System.out.println(vo.toString());
+		//userService.insertUser(vo);
+		//return 0 ;
+		return result;
+	}
+	
+	//회원 정보 보기 폼 이동 user_info.jsp
+	@RequestMapping(value = "/userInfo.do")
+	public String userInfo(Model model) {
+		System.out.println("==========>userInfo");
+		model.addAttribute(viewPage, "user_info.jsp");
+		return viewTemplate;
+	}
+}

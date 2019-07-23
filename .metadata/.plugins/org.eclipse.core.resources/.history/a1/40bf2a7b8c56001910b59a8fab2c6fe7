@@ -1,0 +1,189 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main menu</title>
+    <link href="../css/menu_main.css" rel="stylesheet" type="text/css" />
+    <script src="../js/menu_main.js" type="text/javascript" ></script>
+</head>
+<body>
+	<div id="ddmenu" style="background-color: #F15B42;	font-family: 'KOMACON';">
+	    <div class="menu-icon" ></div>
+	    <ul >
+	    	 <li class="no-sub">
+	            <a class="top-heading" href="templateMain.do">홈</a>
+	        </li>
+	    
+	        <li class="full-width">
+	            <span class="top-heading">폰 케이스</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>삼성</h3></li>
+	                        <li><a href="dovinPage.do">갤럭시 S10</a></li>
+	                        <li><a href="dovinPage.do">갤럭시 S9</a></li>
+	                        <li><a href="dovinPage.do">갤럭시 S8</a></li>
+	                        <li><a href="#">갤럭시 노트9</a></li>
+	                        <li><a href="#">갤럭시 노트8</a></li>
+	                        <li><a href="#">갤럭시 노트7</a></li>
+	                        <li><a href="#">갤럭시A</a></li>
+	                        <li><a href="#">갤럭시</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>애플</h3></li>
+	                        <li><a href="#">아이폰 머시기</a></li>
+	                        <li><a href="#">아이폰 저시기</a></li>
+	                        <li><a href="#">아이폰 그시기</a></li>
+	                        <li><a href="#">아이폰 마시기</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>LG</h3></li>
+	                        <li><a href="#">LG01</a></li>
+	                        <li><a href="#">LG02</a></li>
+	                        <li><a href="#">LG03</a></li>
+	                        <li><a href="#">LG04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>기타</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="full-width">
+	            <span class="top-heading">보조 배터리</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>삼성</h3></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="full-width">
+	            <span class="top-heading">거치대</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>스마트폰</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>태블릿</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="full-width">
+	            <span class="top-heading">화면보호</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>삼성</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>애플</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>LG</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>기타</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="no-sub">
+	            <a class="top-heading" href="#">바로가기</a>
+	        </li>
+	        
+	         <li class="full-width">
+	            <span class="top-heading">TEST</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>상품1</h3></li>
+	                        <li><a href="dovinPage.do">도빈</a></li>
+	                        <li><a href="bonobono.do">보노보노</a></li>
+	                        <li><a href="#">test</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>상품2</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column mayHide">
+	                        <li><br /><img src="img/LOGO.jpg" /></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+<!-- 	        
+	        <li class="no-sub"><a class="top-heading" href="http://www.google.com">Quisque</a></li>
+	        <li>
+	            <a class="top-heading" href="http://www.microsoft.com">Link</a>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>Vestibulum Ut</h3></li>
+	                        <li><a href="#">Nunc pharetra</a></li>
+	                        <li><a href="#">Vestibulum ante</a></li>
+	                        <li><a href="#">Nulla id laoreet</a></li>
+	                        <li><a href="#">Elementum blandit</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+
+	        <li class="no-sub">
+	            <a class="top-heading" href="#">Dignissim</a>
+	        </li>
+	         -->
+	    </ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.eclipse.team.ui.sychronizing_default_participant=org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant
+org.eclipse.team.ui.sychronizing_default_participant_sec_id=1558403151426
+pref_generichistory_view_linking=false

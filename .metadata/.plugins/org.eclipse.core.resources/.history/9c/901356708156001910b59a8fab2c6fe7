@@ -1,0 +1,128 @@
+package com.spring.biz.vo;
+
+public class ItemVO {
+
+	// 아이템 테이블
+
+	// 아이템_코드
+	private int itemCode;
+
+	// 카테고리_코드
+	private int categoryCode;
+
+	// 아이템_이름
+	private String itemName;
+
+	// 아이템_가격
+	private int itemPrice;
+
+	// 재고수량
+	private int itemInventory;
+
+	// 판매수량
+	private int itemSales;
+
+	// 아이템_이미지
+	private String itemImage;
+
+	// 아이템_설명
+	private String itemContent;
+
+	// 아이템_할인
+	private int itemDiscount;
+
+	// 판매_여부
+	private String onSale;
+
+	// 옵션_코드
+	private int optionsCode;
+
+	public int getItemCode() {
+		return itemCode;
+	}
+
+	public void setItemCode(int itemCode) {
+		this.itemCode = itemCode;
+	}
+
+	public int getCategoryCode() {
+		return categoryCode;
+	}
+
+	public void setCategoryCode(int categoryCode) {
+		this.categoryCode = categoryCode;
+	}
+
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public int getItemPrice() {
+		return itemPrice;
+	}
+
+	public void setItemPrice(int itemPrice) {
+		this.itemPrice = itemPrice;
+	}
+
+	public int getItemInventory() {
+		return itemInventory;
+	}
+
+	public void setItemInventory(int itemInventory) {
+		this.itemInventory = itemInventory;
+	}
+
+	public int getItemSales() {
+		return itemSales;
+	}
+
+	public void setItemSales(int itemSales) {
+		this.itemSales = itemSales;
+	}
+
+	public String getItemImage() {
+		return itemImage;
+	}
+
+	public void setItemImage(String itemImage) {
+		this.itemImage = itemImage;
+	}
+
+	public String getItemContent() {
+		return itemContent;
+	}
+
+	public void setItemContent(String itemContent) {
+		this.itemContent = itemContent;
+	}
+
+	public int getItemDiscount() {
+		return itemDiscount;
+	}
+
+	public void setItemDiscount(int itemDiscount) {
+		this.itemDiscount = itemDiscount;
+	}
+
+	public String getOnSale() {
+		return onSale;
+	}
+
+	public void setOnSale(String onSale) {
+		this.onSale = onSale;
+	}
+
+	public int getOptionsCode() {
+		return optionsCode;
+	}
+
+	public void setOptionsCode(int optionsCode) {
+		this.optionsCode = optionsCode;
+	}
+
+}

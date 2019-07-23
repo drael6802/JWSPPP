@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <meta charset="UTF-8">
+<title>메인 템플레이트</title> -->
+</head>
+<body topmargin="0"  leftmargin="0" marginwidth="0" marginheight="0">
+	<!--메인 DIV  -->
+	<div align="center" style="padding: 0; margin: 0;">
+			<jsp:include page="event_top_menu.jsp"></jsp:include><br>
+		<!-- 상단 -->
+		<div>
+			<%-- <jsp:include page="search.jsp"></jsp:include> --%>
+		</div>
+		<!-- 중앙 -->
+		<div>
+			<div>
+				<%-- <jsp:include page="event_menu.jsp"></jsp:include> --%>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

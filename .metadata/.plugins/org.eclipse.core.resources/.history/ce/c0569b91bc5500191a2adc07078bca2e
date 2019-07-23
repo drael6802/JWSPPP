@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML>
+<HTML lang="KO">
+<head>
+<title>우측 고정배너 </title>
+<style type="text/css">
+#aside {position:absolute;  position:fixed;top:250px; right:50px; z-index:3; width:100px; height : 400px; border:2px solid ;} 
+</style>
+</head>
+<body>
+	<div id="aside">
+		오른쪽고정 배너<br>
+		최근본상품넣기 
+	</div>
+
+
+</body>
+</html>

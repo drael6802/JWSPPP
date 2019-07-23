@@ -1,0 +1,127 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LOGIN</title>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="../js/user_login.js?ver=8"></script>
+
+<style type="text/css">	
+	#login {}
+	#login table {
+		margin: auto;
+		font-size: large;
+		text-align: center;
+ 	}
+	#login input {
+		width: 312px;
+		height: 50px;
+		text-align: center;
+		border: none;
+		background: #D0D0D0;
+		font-size: large;
+		color: black;
+	}	
+	#login button {
+		border: 1px solid;
+		background: none;
+		height: 55px;
+		font-family: 'Binggrae-Bold';
+	}
+	#login .loginBtn {
+		width: 310px;
+		font-size: large;
+	}
+	#login .otherBtn {
+		width: 152px;
+		height: 55px;
+		font-size: small;
+		padding: 0;
+		margin: 0;
+	}
+	#login h2, h4 {font-family: 'Binggrae-Bold';}
+</style>
+
+</head>
+<body>
+<div style="margin-top: 50px;">
+<form id="login" action="userLoginProc.do" method="post">
+	<table>
+		<tr>		
+			<td>
+				<h2>로그인</h2>
+				<h4>환영합니다! 로그인하셔서 빨간맛과 함께하세요!</h4>
+				<div  style="height: 20px;"></div>
+			</td>
+		</tr>
+		<tr>		
+			<td>
+				<input type="text" id="userId" name="userId" placeholder="아이디" autofocus required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div style="height: 5px;"></div>
+				<input type="password" id="userPassword" name="userPassword" placeholder="비밀번호" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div style="height: 6px;"></div>
+				<button  type="submit" class="loginBtn">로그인</button>
+				<div style="height: 6px;"></div>
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<div>
+	 				<button class="otherBtn" type="button" onclick="location.href='userJoin.do'">회원가입</button>
+					<button class="otherBtn" id="opener" type="button">ID / PW 찾기</button>
+				</div>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<!--  -->
+
+<div id="dialog" title="아이디 / 비밀번호 찾기" style="width: 500px;">
+	<div align="center" id="tabs" style="width: 500px;">
+		<ul>
+			<li><a href="#tabs-1">아이디 찾기</a></li>
+			<li><a href="#tabs-2">비밀번호 찾기</a></li>
+		</ul>
+		<div id="tabs-1">
+	  		<div align="center">
+				<form action="idFindProc.do" name="" method="post">
+					<h1>아이디 찾기</h1>
+					<div id="findFromDIV">
+						<label>이메일 입력</label>
+						<input type="text" id="userEmail" name="userEmail" required>
+						<input type="button" id="findIdBtn" value="확인">
+					</div>
+				</form><br>
+			</div>
+		</div>
+		<div id="tabs-2">
+			<div align="center">
+				<form action="idFindProc.do" name="" method="post">
+					<h1>비밀번호 찾기</h1>
+					<div id="passFindFromDIV">
+						<label>아이디 입력</label>
+						<input type="text" id="userId" name="userId" required>
+						<input type="button" id="findPassBtn" value="확인">
+					</div>
+				</form><br>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

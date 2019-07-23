@@ -1,0 +1,21 @@
+package com.spring.biz;
+
+import java.util.List;
+
+import com.spring.biz.vo.TestVO;
+
+
+public interface BoardService {
+	//보드 리스트 출력
+	public List<TestVO> bardList(TestVO vo);
+	//보드 게시글 등록
+	public int bardInsert(TestVO vo);
+	//보드 게시글 상세보기
+	public TestVO boardInfo(TestVO vo);
+	//보드 삭제 
+	public int boardDelete(TestVO vo);
+	//보드 삭제 
+	public int boardupdate(TestVO vo);
+	//조회수 
+	public int boaedCount(TestVO vo);
+}

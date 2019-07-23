@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="TEST_ITEM">
+	<resultMap type="com.spring.biz.vo.TestVO" id="test">
+		<result column="ITEM_NUM" 				property="itemNum"/>
+		<result column="ITEM_NAME" 				property="itemName"/>
+		<result column="ITEM_PRICE" 			property="itemPrice"/>
+		<result column="ITEM_AMOUNT" 			property="itemAmount"/>
+		
+
+
+
+	</resultMap>
+	
+	<select id="selectItemList" resultMap="test">
+		SELECT 
+				ITEM_NUM
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_AMOUNT
+		FROM TEST_ITEM
+	</select>
+	
+	<insert id="insertItem">
+	INSERT INTO TEST_ITEM
+		(
+			ITEM_NUM
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_AMOUNT
+		) VALUES (
+			(SELECT NVL(MAX(ITEM_NUM) + 1, 1) FROM TEST_ITEM)
+				, #{itemName}
+				, #{itemPrice}
+				, #{itemAmount}
+				
+		)
+	</insert>
+	
+</mapper>

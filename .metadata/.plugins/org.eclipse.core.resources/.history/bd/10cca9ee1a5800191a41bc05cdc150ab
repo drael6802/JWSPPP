@@ -1,0 +1,141 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>아이템 등록 폼</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/item_registration.js?ver=3"></script>
+	<style type="text/css">
+		#ItemDIV{
+			margin: 0;
+			padding: 0;
+		}
+        #ItemDIV table{
+        	margin: 0;
+			padding: 0;
+        }
+        #ItemDIV img{
+        	max-width: 200px;
+        	max-height: 250px;
+        }
+        #ItemDIV td{
+        	padding-left: 10%;
+        	height: 30px;
+        }
+        #ItemDIV tr{
+        }
+
+	</style>
+	<script type="text/javascript">
+        var sel_file;
+        $(document).ready(function() {
+            $("#itemThumbnail").on("change", handleImgFileSelect);
+        }); 
+        function handleImgFileSelect(e) {
+            var files = e.target.files;
+            var filesArr = Array.prototype.slice.call(files);
+            filesArr.forEach(function(f) {
+                if(!f.type.match("image.*")) {
+                    alert("확장자는 이미지 확장자만 가능합니다.");
+                    return;
+                }
+                sel_file = f;
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $("#PreviewImg").attr("src", e.target.result);
+                }
+                reader.readAsDataURL(f);
+            });
+        }
+    </script>
+</head>
+<body>
+<div align="center">
+	<form action="itemRegistrationProc.do">
+		<div id="ItemDIV" align="center">
+			<table>
+				<tr>
+					<th colspan="2"><h1>상품 추가</h1></th>
+				</tr>
+				<tr>
+					<td>카테고리</td>
+					<td>
+						<select id="categorySelectBox">
+							<option id="categoryCode">카테고리</option>
+							<c:forEach items="${categoryList }" var="list">
+							<option id="${list.categoryCode }">${list.categoryName }</option>
+							</c:forEach>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>아이템_이름</td>
+					<td><input type="text" id="itemName"></td>
+				</tr>
+				<tr>
+					<td>아이템_가격</td>
+					<td><input type="text" id="itemPrice"></td>
+				</tr>
+				<tr>
+					<td>재고수량</td>
+					<td><input type="text" id="itemInventory"></td>
+				</tr>
+				<tr>
+					<td>아이템_이미지</td>
+					<td><input type="file" id="itemImage"></td>
+				</tr>
+				<tr>
+					<td>아이템_이미지 썸네일</td>
+					<td><input type="file" id="itemThumbnail"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div align="center" >
+							<img id="PreviewImg" style="width: 80%; height: 80%;"/>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>아이템_할인</td>
+					<td>
+						<select id="itemDiscount">
+							<option>5</option>
+							<option>10</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>70</option>
+							<option>80</option>
+							<option>90</option>
+						</select>
+						%
+					</td>
+				</tr>
+				<tr>
+					<td>아이템_설명</td>
+					<td><input type="text" id="itemContent"></td>
+				</tr>
+				<tr>
+					<td>옵션 추가 <input type="checkbox" id="optionCheckbox"  /></td>
+					<td>
+						<div id="optionDIV">
+							<input type="text" class="optionName" id="options01" style="width: 60%;" disabled />
+							<input type="button" class="" id="optionBtn" value="추가" disabled ><br>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div style="height: 30px;">
+				<input type="submit" id="submitBtn" value="등록">
+			</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>

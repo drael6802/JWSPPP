@@ -1,0 +1,108 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main menu</title>
+    <link href="../css/ddmenu.css?ver=2" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="ddmenu" style="background-color: #F15B42;">
+	    <div class="menu-icon" ></div>
+	    <ul >
+	    	 <li class="no-sub">
+	            <a class="top-heading" href="templateMain.do">홈</a>
+	        </li>
+	    
+	        <li class="full-width">
+	            <span class="top-heading">전체 메뉴</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>상품1</h3></li>
+	                        <li><a href="dovinPage.do">도빈</a></li>
+	                        <li><a href="bonobono.do">보노보노</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>상품2</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column mayHide">
+	                        <li><br /><img src="img/img1.jpg" /></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="full-width">
+	            <span class="top-heading">전체 메뉴</span>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>상품1</h3></li>
+	                        <li><a href="dovinPage.do">도빈</a></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>상품2</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column">
+	                        <li><h3>상품2</h3></li>
+	                        <li><a href="#">카테고리01</a></li>
+	                        <li><a href="#">카테고리02</a></li>
+	                        <li><a href="#">카테고리03</a></li>
+	                        <li><a href="#">카테고리04</a></li>
+	                    </ul>
+	                    <ul class="column mayHide">
+	                        <li><br /><img src="img/img1.jpg" /></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+	        
+	        <li class="no-sub">
+	            <a class="top-heading" href="#">바로가기</a>
+	        </li>
+	        
+<!-- 	        
+	        <li class="no-sub"><a class="top-heading" href="http://www.google.com">Quisque</a></li>
+	        <li>
+	            <a class="top-heading" href="http://www.microsoft.com">Link</a>
+	            <i class="caret"></i>
+	            <div class="dropdown">
+	                <div class="dd-inner">
+	                    <ul class="column">
+	                        <li><h3>Vestibulum Ut</h3></li>
+	                        <li><a href="#">Nunc pharetra</a></li>
+	                        <li><a href="#">Vestibulum ante</a></li>
+	                        <li><a href="#">Nulla id laoreet</a></li>
+	                        <li><a href="#">Elementum blandit</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </li>
+
+	        <li class="no-sub">
+	            <a class="top-heading" href="#">Dignissim</a>
+	        </li>
+	         -->
+	    </ul>
+	</div>
+</body>
+</html>

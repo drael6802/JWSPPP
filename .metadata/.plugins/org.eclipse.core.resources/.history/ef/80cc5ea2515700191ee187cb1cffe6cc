@@ -1,0 +1,8 @@
+package com.spring.biz;
+
+public class Snippet {
+	public static void main(String[] args) {
+		CategoryService
+	}
+}
+

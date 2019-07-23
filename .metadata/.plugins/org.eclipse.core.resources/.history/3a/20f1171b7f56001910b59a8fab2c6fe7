@@ -1,0 +1,89 @@
+package com.spring.view;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.biz.UserService;
+import com.spring.biz.vo.UserVO;
+
+@Controller
+public class ShoppingController {
+	@Resource(name = "UserService")
+	UserService userService;
+
+	@Resource(name = "ItemService")
+	ItemService itemService;
+	
+	
+	
+	String viewPage = "viewPage";
+	String viewTemplate = "/jsp/Template_main.jsp";
+	String subViewTemplate = "/jsp/Template_sub.jsp";
+	
+	/*
+	@RequestMapping(value = "/test")
+	public String test() {
+		System.out.println("==========>test");
+		model.addAttribute(viewPage, "test.jsp");
+		return viewTemplate;
+	}
+	*/
+	
+	//메인 시작 페이지
+	@RequestMapping(value = "/templateMain.do")
+	public String mainPage(Model model , UserVO vo) {
+		System.out.println("==========>mainTemplate");
+		
+		List<String> list = new ArrayList<>();
+		
+		for (int i = 1; i <= 12; i++) {
+			list.add(i+"");
+			
+		}
+		model.addAttribute("list", list);
+		
+		model.addAttribute(viewPage, "shop_main.jsp");
+		model.addAttribute("main", "main");
+		return viewTemplate;
+	}
+	
+	//임시 도빈 페이지
+	@RequestMapping(value = "/dovinPage.do")
+	public String dovinPage(Model model , UserVO vo) {
+		System.out.println("==========>dovinPage");
+		List<String> list = new ArrayList<>();
+		
+		for (int i = 0; i < 15; i++) {
+			list.add(i+"");
+			
+		}
+		model.addAttribute("list", list);
+		model.addAttribute(viewPage, "dovin_list.jsp");
+		return viewTemplate;
+	}
+	
+	//임시 보노보노 페이지 
+	@RequestMapping(value = "/bonobono.do")
+	public String bonobono(Model model) {
+		System.out.println("==========>test");
+		model.addAttribute(viewPage, "bonobono.jsp");
+		return viewTemplate;
+	}
+	 
+	//임시 아이템페이지 selectUserIdList
+	@RequestMapping(value = "/selectUserIdList")
+	public String selectUserIdList(Model model) {
+		System.out.println("==========>selectUserIdList");
+		
+		
+		model.addAttribute(viewPage, "test.jsp");
+		return viewTemplate;
+	}
+
+}

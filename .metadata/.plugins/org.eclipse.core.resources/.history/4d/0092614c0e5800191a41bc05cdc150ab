@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_ITEM_CATEGORY">
+	<resultMap type="com.spring.biz.vo.CategoryVO" id="category">
+		<result column="OPTIONS_CODE" 				property="OPTIONS_CODE"/>
+		<result column="ITEM_CODE" 				property="ITEM_CODE"/>
+		<result column="OPTIONS_01" 				property="OPTIONS_01"/>
+		<result column="OPTIONS_02" 				property="OPTIONS_02"/>
+		<result column="OPTIONS_03" 				property="OPTIONS_03"/>
+		<result column="OPTIONS_04" 				property="OPTIONS_04"/>
+		<result column="OPTIONS_05" 				property="OPTIONS_05"/>
+		
+	</resultMap>
+	
+	
+
+
+
+
+
+
+	
+	
+	
+</mapper>

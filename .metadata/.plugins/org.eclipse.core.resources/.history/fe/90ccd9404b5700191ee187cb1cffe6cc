@@ -1,0 +1,18 @@
+package com.spring.biz;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.spring.biz.vo.CategoryVO;
+
+@Service("CategoryService")
+public class CategoryServiceImp implements CategoryService{
+
+	@Override
+	public List<CategoryVO> selectCategoryList(CategoryVO vo) {
+		
+		return null;
+	}
+	
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="729" key="DIALOG_X_ORIGIN"/>
+		<item value="381" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="USER_DELETEFLAG" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="USER_DELETEFLAG"/>
+			<item value="userDelBtn"/>
+			<item value="userEmail"/>
+			<item value="og"/>
+			<item value="selectBoardCount"/>
+			<item value="alert"/>
+			<item value="믿ㄳ"/>
+			<item value="system"/>
+			<item value="itemInventory"/>
+			<item value="itemVOList"/>
+			<item value="itemUpdate"/>
+			<item value="itemPrice"/>
+			<item value="container"/>
+			<item value="selectEmailChcek"/>
+			<item value="pageIndex"/>
+		</list>
+		<list key="replacehistory">
+			<item value="userId"/>
+			<item value="500px"/>
+			<item value="itemCodeList"/>
+			<item value="int"/>
+			<item value=""/>
+			<item value="cartDIV"/>
+			<item value="itemImageFile"/>
+			<item value="String"/>
+			<item value="150"/>
+			<item value="200"/>
+			<item value="300"/>
+			<item value="800"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="310" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|10.5|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="434" key="DIALOG_HEIGHT"/>
+		<item value="1514" key="DIALOG_X_ORIGIN"/>
+		<item value="513" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

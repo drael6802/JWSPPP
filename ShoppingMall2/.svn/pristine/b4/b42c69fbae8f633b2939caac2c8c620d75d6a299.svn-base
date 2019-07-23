@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_USER">
+	<resultMap type="com.spring.biz.vo.UserVO" id="user">
+		<result column="USER_CODE" 				property="userCode"/>
+		<result column="USER_ID" 				property="userId"/>
+		<result column="USER_PASSWORD" 			property="userPassword"/>
+		<result column="USER_PHONE" 			property="userPhone"/>
+		<result column="USER_EMAIL" 			property="userEmail"/>
+		<result column="USER_ADDRESS" 			property="userAddress"/>
+		<result column="USER_ADMIN" 			property="userAdmin"/>
+		<result column="USER_BIRTH" 			property="userBirth"/>
+		<result column="USER_JOINDAY" 			property="userJoinday"/>
+		<result column="USER_NAME" 				property="userName"/>
+		<result column="EMAIL_CHECK" 			property="emailCheck"/>
+		<result column="ROW_NUM" 				property="rowNum"/>
+		<result column="TOTAL_ROW_NUM" 			property="totalRowNum"/>
+	</resultMap>
+	
+<!-- 	로그인 -->
+	<select id="selectLogin" resultMap="user">
+		SELECT USER_ID 
+				, USER_PASSWORD
+				, USER_NAME
+				, USER_ADMIN
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userId}
+		AND USER_PASSWORD = #{userPassword}
+	</select>
+
+<!-- 	회원가입  -->
+	<insert id="insertUser">
+		INSERT INTO SHOPPING_USER
+		(
+			USER_CODE
+			, USER_ID
+			, USER_PASSWORD
+			, USER_PHONE
+			, USER_EMAIL
+			, USER_ADDRESS
+			, USER_ADMIN
+			, USER_BIRTH
+			, USER_JOINDAY
+			, USER_NAME
+			, EMAIL_CHECK
+		) VALUES (
+			(SELECT NVL(MAX(USER_CODE) + 1, 1) FROM SHOPPING_USER)
+			, #{userId}
+			, #{userPassword}
+			, #{userPhone}
+			, #{userEmail}
+			, #{userAddress}
+			, 'N'
+			, #{userBirth}
+			, SYSDATE
+			, #{userName}
+			, 'N'
+		)
+	</insert>
+	
+<!-- 	아이디 체크 -->
+	<select id="selectIdChcek" resultMap="user">
+		SELECT USER_ID 
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userId}
+	</select>
+	
+<!-- 	이메일 체크 -->
+	<select id="selectEmailChcek" resultMap="user">
+		SELECT USER_EMAIL 
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userEmail}
+	</select>
+		
+<!-- 	회원 리스트 출력 -->
+	<select id="selectUserIdList" resultMap="user">
+		SELECT 
+				ROW_NUM
+				, TOTAL_ROW_NUM
+				, USER_CODE
+				, USER_ID
+				, USER_PASSWORD
+				, USER_PHONE
+				, USER_EMAIL
+				, USER_ADDRESS
+				, USER_ADMIN
+				, USER_BIRTH
+				, USER_JOINDAY
+		FROM (		SELECT
+					ROWNUM as ROW_NUM
+					, (
+						SELECT COUNT(USER_CODE)
+                       	FROM SHOPPING_USER
+                       ) as TOTAL_ROW_NUM
+					, USER_CODE
+					, USER_ID
+					, USER_PASSWORD
+					, USER_PHONE
+					, USER_EMAIL
+					, USER_ADDRESS
+					, USER_ADMIN
+					, USER_BIRTH
+					, USER_JOINDAY
+					, USER_NAME
+				FROM SHOPPING_USER
+			)
+		WHERE 1 = 1
+		<choose>
+			<when test="searchState == 'id'">
+				AND USER_ID LIKE '%'||#{searchKeyword}||'%'
+			</when>
+			<when test="searchState == 'name'">
+				AND USER_NAME LIKE '%'||#{searchKeyword}||'%'
+			</when>
+			<otherwise></otherwise>
+		</choose>
+		AND
+		ROW_NUM &gt; (SELECT COUNT(USER_CODE) - 10 FROM SHOPPING_USER) - (( #{pageIndex} -1) * 10)  
+		AND
+		ROW_NUM &lt;= (SELECT COUNT(USER_CODE) FROM SHOPPING_USER) - (( #{pageIndex} -1) * 10)
+	</select>
+
+<!-- 	회원 정보  -->
+ 	<select id="selectUserDetail" resultMap="user">
+		SELECT USER_CODE
+				, USER_ID
+				, USER_PASSWORD
+				, USER_PHONE
+				, USER_EMAIL
+				, USER_ADDRESS
+				, USER_ADMIN
+				, USER_BIRTH
+				, USER_JOINDAY
+				, USER_NAME
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userId }
+	</select>
+	
+<!-- 	회원 아이디 찾기 -->
+	<select id="selectIdFind" resultMap="user">
+		SELECT USER_ID
+				, USER_PASSWORD
+				, USER_EMAIL
+				, USER_BIRTH
+		FROM SHOPPING_USER
+		 WHERE 1 = 1
+		 <if test="userEmail != null">
+			 and USER_EMAIL = #{userEmail}
+		 </if>
+		 <if test="userId != null">
+			 and USER_ID = #{userId}
+		 </if>
+	</select>
+	
+<!-- 	회원 패스워드 변경 -->
+	<update id="PasswordUpdate">
+		UPDATE SHOPPING_USER
+		SET
+			USER_PASSWORD = #{userPassword}	
+		WHERE USER_ID = #{userId}
+	</update>
+	
+<!-- 	회원 주소 변경 -->
+	<update id="addressUpdate">
+		UPDATE SHOPPING_USER
+		SET
+			USER_ADDRESS = #{userAddress}	
+		WHERE USER_ID = #{userId}
+	</update>
+<!-- 	회원 정보 수정 -->
+
+
+</mapper>

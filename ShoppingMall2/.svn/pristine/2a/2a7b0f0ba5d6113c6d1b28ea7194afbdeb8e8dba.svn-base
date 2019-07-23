@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_BOARD">
+	<resultMap type="com.spring.biz.vo.BoardVO" id="board">
+		<result column="ROW_NUM" 				property="rowNum"/>
+		<result column="BOARD_CODE" 			property="boardCode"/>
+		<result column="ITEM_CODE" 				property="itemCode"/>
+		<result column="USER_ID" 				property="userId"/>
+		<result column="BOARD_TITLE" 			property="boardTitle"/>
+		<result column="BOARD_CONTENT" 			property="boardContent"/>
+		<result column="BOARD_DATE" 			property="boardDate"/>
+		<result column="BOARD_SCORE" 			property="boardScore"/>
+		<result column="BOARD_VIEW" 			property="boardView"/>
+		<result column="BOARD_CATEGORY_CODE" 	property="boardCategoryCode"/>
+		<result column="BOARD_PASSWORD" 		property="boardPassword"/>
+		<result column="ITEM_NAME" 				property="itemName"/>
+		<result column="BOARD_REPLY" 			property="boardReply"/>		
+	</resultMap>
+
+	<!--
+		BOARD_CATEGORY_CODE
+		공지사항 = 1  
+		상품 문의 게시판 =2
+		리뷰 게시판 = 3
+		상품인포 게시판 = 4
+		1:1  상담 게시판 = 5
+	-->
+	
+	<!-- 보드 카운트  -->
+	<select id="selectBoardCount" resultType="int" parameterType="int">
+		SELECT COUNT(BOARD_CODE)
+		FROM SHOPPING_BOARD
+		WHERE 1=1
+		<choose>
+			<when test="boardCategoryCode == 4">
+				AND BOARD_CATEGORY_CODE = 3
+			</when>
+			<otherwise>
+				AND BOARD_CATEGORY_CODE = #{boardCategoryCode}
+			</otherwise>
+		</choose>
+	</select>
+	
+   <!-- 보드 리스트  -->
+   <select id="selectBoardList" resultMap="board" parameterType="int">
+      SELECT ROW_NUM
+			, BOARD_CODE
+			, A.ITEM_CODE
+			, USER_ID
+			, BOARD_TITLE
+			, BOARD_CONTENT
+			, BOARD_DATE
+			, BOARD_SCORE
+			, BOARD_VIEW
+			, BOARD_CATEGORY_CODE
+			, BOARD_PASSWORD
+            <if test="boardCategoryCode == 3">
+               , ITEM_NAME
+            </if>
+      FROM (SELECT ((SELECT COUNT(*)+1 FROM SHOPPING_BOARD) - ROWNUM) AS "ROW_NUM"
+               , BOARD_CODE
+                  , ITEM_CODE
+                  , USER_ID
+                  , BOARD_TITLE
+                  , BOARD_CONTENT
+                  , BOARD_DATE
+                  , BOARD_SCORE
+                  , BOARD_VIEW
+                  , BOARD_CATEGORY_CODE
+                  , BOARD_PASSWORD
+         FROM SHOPPING_BOARD 
+          ORDER BY ROW_NUM DESC
+         ) A
+         <if test="boardCategoryCode == 3">
+            INNER JOIN SHOPPING_ITEM B
+              ON A.ITEM_CODE = B.ITEM_CODE
+         </if>
+      WHERE 1 = 1
+         <choose>
+            <when test="boardCategoryCode == 1">
+               AND
+               BOARD_CATEGORY_CODE = 1
+               AND
+               ROW_NUM &gt; (SELECT COUNT(BOARD_CODE)-10 FROM SHOPPING_BOARD WHERE BOARD_CATEGORY_CODE = 1)-((#{pageIndex}-1) * 10)  
+               AND
+               ROW_NUM &lt;= (SELECT COUNT(BOARD_CODE) FROM SHOPPING_BOARD  WHERE BOARD_CATEGORY_CODE = 1) - ((#{pageIndex}-1) * 10)
+            </when>
+            <when test="boardCategoryCode == 2">
+               AND
+               BOARD_CATEGORY_CODE = 2
+            </when>
+            <when test="boardCategoryCode == 3">
+               AND
+               BOARD_CATEGORY_CODE = 3
+               AND
+               USER_ID = #{userId}
+               <if test="boardViewState == 'mini' ">
+                  AND ROWNUM  &lt; 5
+               </if>
+	               <if test="boardViewState != 'mini' ">
+	               AND
+	               ROW_NUM &gt; (SELECT COUNT(BOARD_CODE)-10 FROM SHOPPING_BOARD)-((#{pageIndex}-1) * 10)  
+	               AND
+	               ROW_NUM &lt;= (SELECT COUNT(BOARD_CODE) FROM SHOPPING_BOARD) - ((#{pageIndex}-1) * 10)
+               </if>
+            </when>
+            <when test="boardCategoryCode == 4">
+               AND
+               BOARD_CATEGORY_CODE = 3
+               AND
+               A.ITEM_CODE = #{itemCode}
+            </when>
+            <otherwise>
+            </otherwise>
+         </choose>
+	</select>
+	
+	<!-- 별점 평균 -->
+	<select id="selectBoardScoreAVG" resultType="double">
+		SELECT TRUNC(AVG(BOARD_SCORE),1)
+		FROM SHOPPING_BOARD
+        WHERE BOARD_CATEGORY_CODE = 3 AND ITEM_CODE = #{itemCode}
+	</select>
+	
+	<!-- 메인 공지사항 리스트 -->
+	<select id="selectMainNoticeList" resultMap="board">
+		SELECT ROWNUM AS "ROW_NUM"
+		            , BOARD_TITLE
+		            , BOARD_CONTENT
+		            , BOARD_DATE
+		FROM (SELECT BOARD_CODE
+			            , BOARD_TITLE
+	         			, BOARD_CONTENT
+			            , BOARD_DATE
+			            , BOARD_CATEGORY_CODE
+			  FROM SHOPPING_BOARD
+			  ORDER BY BOARD_CODE DESC
+		)
+		WHERE  BOARD_CATEGORY_CODE = 1 AND ROWNUM &lt;= 5
+	</select>
+
+	<!-- 상세보기(BOARD_CODE) -->	
+	<select id="selectBoardDetail" resultMap="board">
+		SELECT BOARD_TITLE
+	            , BOARD_CONTENT
+	            , BOARD_DATE
+	            , BOARD_VIEW
+		FROM SHOPPING_BOARD
+		WHERE  BOARD_CODE = #{boardCode}
+	</select>
+
+	<!-- 아이디별 리스트 - 유저페이지 -->	
+	<select id="selectUserPageList" resultMap="board">
+		SELECT BOARD_CODE
+            , ITEM_CODE
+            , BOARD_TITLE
+            , BOARD_CONTENT
+            , BOARD_DATE
+            , BOARD_SCORE
+            , BOARD_VIEW
+            , BOARD_REPLY
+		FROM SHOPPING_BOARD
+		WHERE BOARD_CATEGORY_CODE = #{boardCategoryCode} AND USER_ID = #{userId}
+	</select>
+	
+	<!-- 1:1 질문 목록 -->
+	<select id="inquiryBoardList" resultMap="board">
+		SELECT BOARD_CODE
+			, USER_ID
+			, BOARD_TITLE
+			, BOARD_CONTENT
+			, BOARD_DATE
+			, BOARD_REPLY
+		FROM SHOPPING_BOARD
+		WHERE BOARD_CATEGORY_CODE = 5
+	</select>
+
+	<!-- 1:1 질문 등록 및 수정 -->
+	<update id="updateQuestion">
+		UPDATE SHOPPING_BOARD
+		SET BOARD_TITLE = #{boardTitle}
+			,BOARD_CONTENT = #{boardContent}
+		WHERE BOARD_CODE = #{boardCode}
+	</update>
+
+	<!-- 1:1 질문 답변등록 및 답변수정 -->
+	<update id="insertInquiry">
+		UPDATE SHOPPING_BOARD
+		SET BOARD_REPLY = #{boardReply}
+		WHERE BOARD_CODE = #{boardCode}
+	</update>
+		
+	<!-- 보드 인서트 -->
+	<insert id="insertBoard">
+		INSERT INTO SHOPPING_BOARD	(
+				BOARD_CATEGORY_CODE
+				, BOARD_CODE
+				, USER_ID
+				, BOARD_TITLE
+				, BOARD_CONTENT
+				, ITEM_CODE
+				, BOARD_SCORE
+		)VALUES (
+				#{boardCategoryCode}
+				, (SELECT NVL(MAX(BOARD_CODE)+1,1) FROM SHOPPING_BOARD)
+				, #{userId}
+				, #{boardTitle}
+				, #{boardContent}
+				, #{itemCode}
+				, #{boardScore}
+		)
+	</insert>
+	
+	<!-- 1:1질문 등록 -->
+	<insert id="insertQuestion">
+		INSERT INTO SHOPPING_BOARD	(
+				BOARD_CATEGORY_CODE
+				, BOARD_CODE
+				, USER_ID
+				, BOARD_TITLE
+				, BOARD_CONTENT
+		)VALUES (
+				#{boardCategoryCode}
+				, (SELECT NVL(MAX(BOARD_CODE)+1,1) FROM SHOPPING_BOARD)
+				, #{userId}
+				, #{boardTitle}
+				, #{boardContent}
+		)	
+	</insert>
+			
+	<!-- 보드 비활성화 -->
+	<delete id="deleteBoard">
+		DELETE SHOPPING_BOARD
+		WHERE 1=1
+		<foreach collection="boardList" item="board" open="AND" separator="OR">
+			(BOARD_CODE = #{board.boardCode})
+		</foreach>
+	</delete>
+
+	<!-- 리뷰 보드 수정 -->
+	<update id="reviewUpdate">
+		UPDATE SHOPPING_BOARD
+		SET BOARD_TITLE = #{boardTitle}
+			, BOARD_CONTENT = #{boardContent}
+			, BOARD_SCORE = #{boardScore}
+		WHERE 1=1
+		AND USER_ID = #{userId}
+		AND BOARD_CODE = #{boardCode}
+	</update>
+	
+	<!-- 공지사항 보드 수정 -->
+	<update id="updateNotice">
+		UPDATE SHOPPING_BOARD
+		SET
+		BOARD_TITLE = #{boardTitle}
+		,BOARD_CONTENT = #{boardContent}
+		WHERE 1=1
+		AND BOARD_CODE = #{boardCode}
+	</update>
+	
+</mapper>

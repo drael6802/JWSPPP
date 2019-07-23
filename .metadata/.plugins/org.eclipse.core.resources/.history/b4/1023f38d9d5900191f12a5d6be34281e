@@ -1,0 +1,32 @@
+package com.spring.biz;
+
+import java.util.List;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring.biz.vo.Category03VO;
+import com.spring.biz.vo.ItemVO;
+import com.spring.biz.vo.OptionsVO;
+
+@Service("ItemService")
+public class ItemServiceImp implements ItemService {
+	@Autowired
+	private SqlSessionTemplate sqlSession;
+	
+	//상품 리스트 
+	@Override
+	public List<ItemVO> selectUserIdList(ItemVO vo) {
+		return sqlSession.selectList("selectItemList" , vo);
+	}
+	//상품 인서트
+	@Override
+	public int insertItem(ItemVO itemVO, OptionsVO optionsVO ) {
+		sqlSession.insert("insertItem" , itemVO);
+		//sqlSession.insert("" + optionsVO);
+		return 0;
+	}
+	
+	
+}

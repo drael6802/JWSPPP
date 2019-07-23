@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="boardMapper">
+	<resultMap type="com.spring.biz.vo.BoardVO" id="board">
+		<result column="SEQ" 			property="seq"/>
+		<result column="TITLE" 			property="title"/>
+		<result column="WRITER"			property="writer"/>
+		<result column="CONTENT" 		property="content"/>
+		<result column="REG_DATE" 		property="regDate"/>
+		<result column="READ_CNT" 		property="readCnt"/>
+		<result column="SEARCHCONDITION" 		property="searchCondition"/>
+		<result column="SEARCHKEYWORD" 		property="searchKeyword"/>
+	</resultMap>
+	
+	<select id="selectBoardList" resultMap="board">
+			SELECT
+		 	<!-- ((SELECT COUNT(*)+1 FROM SPRING_BOARD) - ROWNUM) AS ROW_NUM -->
+			 SEQ
+			, TITLE
+			, WRITER
+			, CONTENT
+			, REG_DATE
+			, READ_CNT
+		FROM SPRING_BOARD
+		WHERE 1=1
+		<choose>
+			<when test="searchCondition == 'TITLE'">
+				AND TITLE LIKE '%'||#{searchKeyword }||'%'
+			</when>
+			<when test="searchCondition == 'CONTENT'">
+				AND CONTENT LIKE '%'||#{searchKeyword }||'%'
+			</when>
+			<otherwise></otherwise>
+		</choose> 
+		ORDER BY SEQ DESC
+	</select>
+	
+	<insert id="insertBoard">
+		INSERT INTO SPRING_BOARD
+		(
+			SEQ
+			, TITLE
+			, WRITER
+			, CONTENT
+		) VALUES (
+			(SELECT NVL(MAX(SEQ) + 1, 1) FROM SPRING_BOARD)
+			, #{title}
+			, #{writer}
+			, #{content}
+		)
+	</insert>
+	
+	<select id="selectBoardInfo" resultMap="board">
+		SELECT
+			 SEQ
+			, TITLE
+			, WRITER
+			, CONTENT
+			, REG_DATE
+			, READ_CNT
+            , MEMBER_NAME
+		FROM SPRING_BOARD A , LOGIN_INFO B
+		WHERE A.WRITER = B.MEMBER_ID
+        AND SEQ = #{seq}
+	</select>
+	
+	<delete id="deleteBoard">
+		DELETE FROM SPRING_BOARD
+        WHERE SEQ = #{seq}
+	</delete>
+	
+	<update id="updateBoard">
+		UPDATE SPRING_BOARD
+			SET
+			TITLE = #{title} 
+			, WRITER = #{writer}
+			, CONTENT = #{content}
+			WHERE SEQ = #{seq}
+	</update>
+	
+	<update id="updateContent">
+		UPDATE SPRING_BOARD
+			SET
+			READ_CNT = (READ_CNT+1)
+			WHERE SEQ = #{seq}
+	</update>
+	
+</mapper>

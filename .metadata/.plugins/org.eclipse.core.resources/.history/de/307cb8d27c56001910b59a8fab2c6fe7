@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_USER">
+	<resultMap type="com.spring.biz.vo.UserVO" id="user">
+		<result column="ITEM_CODE" 				property="ITEM_CODE"/>
+		<result column="CATEGORY_CODE" 			property="CATEGORY_CODE"/>
+		<result column="ITEM_NAME" 				property="ITEM_NAME"/>
+		<result column="ITEM_PRICE" 			property="ITEM_PRICE"/>
+		<result column="ITEM_INVENTORY" 		property="ITEM_INVENTORY"/>
+		<result column="ITEM_SALES" 			property="ITEM_SALES"/>
+		<result column="ITEM_IMAGE" 			property="ITEM_IMAGE"/>
+		<result column="ITEM_CONTENT" 			property="ITEM_CONTENT"/>
+		<result column="ITEM_DISCOUNT" 			property="ITEM_DISCOUNT"/>
+		<result column="ON_SALE" 				property="ON_SALE"/>
+		<result column="OPTIONS_CODE" 			property="OPTIONS_CODE"/>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+	</resultMap>
+	
+	<select id="selectLogin" resultMap="user">
+		SELECT USER_ID 
+				,USER_PASSWORD
+				,USER_NAME
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userId}
+		AND USER_PASSWORD = #{userPassword}
+				
+	</select>
+	
+	<select id="selectUserIdList" resultMap="user">
+		SELECT 
+				USER_CODE
+				, USER_ID
+				, USER_PASSWORD
+				, USER_PHONE
+				, USER_EMAIL
+				, USER_ADDRESS
+				, USER_ADDRESS_INFO
+				, USER_ADMIN
+				, USER_BIRTH
+				, USER_JOINDAY
+		FROM SHOPPING_USER
+	</select>
+	
+	<insert id="insertUser">
+		INSERT INTO SHOPPING_USER
+		(
+			USER_CODE
+			, USER_ID
+			, USER_PASSWORD
+			, USER_PHONE
+			, USER_EMAIL
+			, USER_ADDRESS
+			, USER_ADMIN
+			, USER_BIRTH
+			, USER_JOINDAY
+			, USER_NAME
+			, EMAIL_CHECK
+		) VALUES (
+			(SELECT NVL(MAX(USER_CODE) + 1, 1) FROM SHOPPING_USER)
+			, #{userId}
+			, #{userPassword}
+			, #{userPhone}
+			, #{userEmail}
+			, #{userAddress}
+			, 'N'
+			, #{userBirth}
+			, SYSDATE
+			, #{userName}
+			, 'N'
+		)
+	</insert>
+	
+	<select id="selectIdChcek" resultMap="user">
+		SELECT USER_ID 
+		FROM SHOPPING_USER
+		WHERE USER_ID = #{userId}
+	</select>
+	
+	
+	
+	
+</mapper>

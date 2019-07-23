@@ -1,0 +1,41 @@
+package com.spring.biz.vo;
+
+public class Category03VO {
+
+    // 카테고리_03_코드 
+    private int category03Code;
+
+    // 카테고리_03_이름 
+    private String category03Name;
+
+    // 카테고리_02_코드 
+    private int category02Code;
+
+	public int getCategory03Code() {
+		return category03Code;
+	}
+
+	public void setCategory03Code(int category03Code) {
+		this.category03Code = category03Code;
+	}
+
+	public String getCategory03Name() {
+		return category03Name;
+	}
+
+	public void setCategory03Name(String category03Name) {
+		this.category03Name = category03Name;
+	}
+
+	public int getCategory02Code() {
+		return category02Code;
+	}
+
+	public void setCategory02Code(int category02Code) {
+		this.category02Code = category02Code;
+	}
+
+    
+
+
+}

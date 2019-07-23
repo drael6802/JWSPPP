@@ -1,0 +1,12 @@
+package com.spring.biz;
+
+import java.util.List;
+
+import com.spring.biz.vo.UserVO;
+
+public interface ItemService {
+	
+	//상품 리스트
+	public List<UserVO> selectUserIdList(UserVO vo);
+	
+}

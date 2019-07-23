@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_buyVO">
+	<resultMap type="com.spring.biz.vo.buyVO" id="buy">
+		<result column="ROW_NUM"				property="rowNum"/>
+		<result column="BUY_CODE"				property="buyCode"/>
+		<result column="USER_ID"				property="userId"/>
+		<result column="ITEM_CODE"				property="itemCode"/>
+		<result column="ITEM_COUNT"				property="itemCount"/>
+		<result column="ITEM_PRICE"				property="itemPrice"/>
+		<result column="ITEM_NAME"				property="itemName"/>
+		<result column="OPTIONS"				property="options"/>
+		<result column="ITEM_THUMBNAIL"			property="itemThumbnail"/>
+		<result column="BUY_DATE"				property="buyDate"/>
+		<result column="ITEM_INVENTORY"			property="itemInventory"/>
+		<result column="TOTAL_PRICE"			property="totalPrice"/>
+		<result column="TOTAL_PRICE"			property="totalPrice"/>
+		<result column="BOARD_REVIEW_STATE"		property="boardReviewState"/>
+		<collection property="comments" column="BOARDID" javaType="java.util.ArrayList" ofType="net.krespo.mybatis.Comment" select="getCommentListById"/>
+	</resultMap>
+
+<!-- 	구매목록 인서트  -->
+	<insert id="insertbuyList">
+		INSERT ALL
+		<foreach collection="cartVOList" index="index" item="cartVOList">
+			INTO SHOPPING_BUY
+			(
+				BUY_CODE
+				, USER_ID
+				, ITEM_CODE
+				, ITEM_COUNT
+				, ITEM_PRICE
+				, ITEM_NAME
+				, OPTIONS
+				, ITEM_THUMBNAIL
+				, ITEM_INVENTORY
+				, TOTAL_PRICE
+			) VALUES (
+				(SELECT NVL(MAX(BUY_CODE) + 1 + #{index} , 1 + #{index} )  FROM SHOPPING_BUY)
+					, #{cartVOList.userId}
+					, #{cartVOList.itemCode}
+					, #{cartVOList.itemCount}
+					, #{cartVOList.itemPrice}
+					, #{cartVOList.itemName}
+					, #{cartVOList.options}
+					, #{cartVOList.itemThumbnail}
+					, #{cartVOList.itemInventory}
+					, #{cartVOList.itemCount} * #{cartVOList.itemPrice}
+			)
+		</foreach>
+			SELECT * FROM DUAL
+	</insert>
+<!-- 	장바구니 리스트 출력 -->
+	<select id="selectBuyList" resultMap="buy">
+		SELECT 
+				ROW_NUM
+				, BUY_CODE
+				, USER_ID
+				, ITEM_CODE
+				, ITEM_COUNT
+				, ITEM_PRICE
+				, ITEM_NAME
+				, OPTIONS
+				, ITEM_THUMBNAIL
+				, BUY_DATE
+				, ITEM_INVENTORY
+				, TOTAL_PRICE
+				, BOARD_REVIEW_STATE
+		FROM (
+			SELECT
+				((SELECT COUNT(*)+1 FROM SHOPPING_BUY) - ROWNUM) AS "ROW_NUM"
+				, BUY_CODE
+				, USER_ID
+				, ITEM_CODE
+				, ITEM_COUNT
+				, ITEM_PRICE
+				, ITEM_NAME
+				, OPTIONS
+				, ITEM_THUMBNAIL
+				, BUY_DATE
+				, ITEM_INVENTORY
+				, TOTAL_PRICE
+				, BOARD_REVIEW_STATE
+		FROM SHOPPING_BUY
+        ORDER BY BUY_DATE DESC
+		)
+		WHERE USER_ID = #{userId}
+		<if test="buyState == 'mini'">
+	        AND ROWNUM  &lt;= 5
+		</if>
+		<if test="buyState != 'mini'">
+			AND
+			ROW_NUM &gt; (SELECT COUNT(BUY_CODE)-10 FROM SHOPPING_BUY)-((#{pageIndex}-1) * 10)  
+			AND
+			ROW_NUM &lt;= (SELECT COUNT(BUY_CODE) FROM SHOPPING_BUY) - ((#{pageIndex}-1) * 10)
+		</if>
+	</select>
+<!-- 	구매시 아이템 재고 업데이트 -->
+	<update id="updateItemSales">
+ 		<foreach collection="cartVOList" item="cartVOList"  separator=";" open="DECLARE BEGIN" close="; END ;">
+			UPDATE SHOPPING_ITEM
+			SET
+				ITEM_SALES = ITEM_SALES + #{cartVOList.itemCount}
+				,ITEM_INVENTORY = ITEM_INVENTORY - #{cartVOList.itemCount}
+			WHERE ITEM_CODE = #{cartVOList.itemCode}
+ 		</foreach>
+	</update>
+
+	<!--리뷰 업데이트  -->
+	<update id="updateBoardReviewState">
+			UPDATE SHOPPING_BUY
+			SET
+				BOARD_REVIEW_STATE = 'Y'
+			WHERE BUY_CODE = #{buyCode} 
+			AND USER_ID = #{userId}
+	</update>
+	
+<!-- 	아이템 인포 창에서 바로구매 인서트 -->
+	<insert id="baroInsertbuyList">
+		INSERT ALL
+		<foreach collection="buyVOList" index="index" item="buyVOList">
+			INTO SHOPPING_BUY
+			(
+				BUY_CODE
+				, USER_ID
+				, ITEM_CODE
+				, ITEM_COUNT
+				, ITEM_PRICE
+				, ITEM_NAME
+				, OPTIONS
+				, ITEM_THUMBNAIL
+				, ITEM_INVENTORY
+				, TOTAL_PRICE
+			) VALUES (
+				(SELECT NVL(MAX(BUY_CODE) + 1 + #{index} , 1 + #{index} )  FROM SHOPPING_BUY) 
+					, #{buyVOList.userId}
+					, #{buyVOList.itemCode}
+					, #{buyVOList.itemCount}
+					, #{buyVOList.itemPrice}
+					, #{buyVOList.itemName}
+					, #{buyVOList.options}
+					, #{buyVOList.itemThumbnail}
+					, #{buyVOList.itemInventory}
+					, #{buyVOList.itemCount} * #{buyVOList.itemPrice}
+			)
+		</foreach>
+			SELECT * FROM DUAL
+	</insert>
+	
+	
+	<update id="updateItemSalesBuyVOList">
+ 		<foreach collection="buyVOList" item="buyVOList"  separator=";" open="DECLARE BEGIN" close="; END ;">
+			UPDATE SHOPPING_ITEM
+			SET
+				ITEM_SALES = ITEM_SALES + #{buyVOList.itemCount}
+				,ITEM_INVENTORY = ITEM_INVENTORY - #{buyVOList.itemCount}
+			WHERE ITEM_CODE = #{buyVOList.itemCode}
+ 		</foreach>
+	</update>
+	
+	<select id="selectBuyCount" resultType="int">
+		SELECT COUNT(BOARD_CODE)
+		FROM SHOPPING_BOARD
+		WHERE 1=1
+		AND USER_ID = #{userId}
+	</select>
+
+
+</mapper>

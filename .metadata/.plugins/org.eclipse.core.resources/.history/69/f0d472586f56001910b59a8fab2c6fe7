@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품 리스트 페이지</title>
+
+<style type="text/css">
+div {
+	align-content: center;
+}
+.blueone {
+  	border-collapse: collapse;
+}  
+.blueone td {
+ 	color: #669;
+	border-bottom: 1px solid #ddd;
+ 	width: 300px;
+	text-align: center;
+}
+.blueone td:hover {
+	border: 1px solid #ddd;
+	color: red;
+	font-size: large;
+}
+
+img:hover {
+	opacity: 0.7;
+
+}
+.blueone tr {
+	height: 400px;
+}
+
+</style>
+
+</head>
+<body>
+<!--  -->
+<div align="center">
+	<div>
+		<h1> 베스트 상품</h1>
+	</div>
+	<table class="blueone" >
+		<c:choose>
+			<c:when test="${empty requestScope.list }" >
+				<tr>
+					<td colspan="4">
+						<a style="text-align: center;">등록 상품이 없습니다.</a>
+					</td>
+				</tr>
+			</c:when>
+			<c:otherwise>
+				<c:set var="i" value="0" />
+				<c:set var="j" value="4" />
+				<c:forEach items="${list }" var="list">
+					<c:if test="${i%j eq 0 }">
+						<tr>
+					</c:if>
+						<td>
+							<h1 style="font-size: xx-large;">
+								${list }
+							</h1>
+						</td>
+					<c:if test="${i%j eq j-1 }">
+						</tr>
+					</c:if>
+					<c:set var="i" value="${i+1 }" />
+				</c:forEach>
+			</c:otherwise>
+		</c:choose>
+	</table>
+</div>
+<div style="height: 30px;"></div>
+<!--  -->
+</body>
+</html>

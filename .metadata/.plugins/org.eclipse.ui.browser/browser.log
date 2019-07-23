@@ -1,0 +1,979 @@
+
+4월 09, 2019 10:23:29.87 NEW SESSION
+4월 09, 2019 10:23:29.87 [10512:3684:0409/102329.872:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:23:29.90 [10512:11064:0409/102329.902:ERROR:browser_process_sub_thread.cc(209)] Waited 13 ms for network service
+4월 09, 2019 10:23:42.52 [2672:6328:0409/102342.526:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:23:42.55 [2672:3100:0409/102342.555:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+4월 09, 2019 10:24:35.61 [11796:8376:0409/102435.616:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:24:35.64 [11796:3528:0409/102435.646:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 09, 2019 10:24:44.19 [8220:5580:0409/102444.192:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:24:44.22 [8220:16724:0409/102444.222:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+4월 09, 2019 10:24:57.21 [13064:3080:0409/102457.215:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:24:57.26 [13064:11628:0409/102457.263:ERROR:browser_process_sub_thread.cc(209)] Waited 21 ms for network service
+4월 09, 2019 10:26:38.97 [8340:8508:0409/102638.978:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:26:39.01 [8340:6560:0409/102639.013:ERROR:browser_process_sub_thread.cc(209)] Waited 15 ms for network service
+4월 09, 2019 10:27:02.32 [7300:11068:0409/102702.321:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:27:02.35 [7300:6140:0409/102702.351:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+
+4월 09, 2019 10:35:05.64 NEW SESSION
+4월 09, 2019 10:35:05.64 [15268:14504:0409/103505.645:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:35:05.67 [15268:5808:0409/103505.671:ERROR:browser_process_sub_thread.cc(209)] Waited 7 ms for network service
+4월 09, 2019 10:35:43.01 [16392:7468:0409/103543.014:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:35:43.04 [16392:9580:0409/103543.045:ERROR:browser_process_sub_thread.cc(209)] Waited 16 ms for network service
+4월 09, 2019 10:37:30.71 [12136:13348:0409/103730.718:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:37:30.74 [12136:15408:0409/103730.749:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 09, 2019 10:39:29.21 [9056:2444:0409/103929.219:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:39:29.25 [9056:14244:0409/103929.250:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+4월 09, 2019 10:42:53.57 [14188:8124:0409/104253.577:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 10:42:53.60 [14188:7496:0409/104253.605:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 09, 2019 11:14:50.90 [17176:596:0409/111450.901:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 11:14:50.92 [17176:16552:0409/111450.927:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+4월 09, 2019 11:49:07.24 [13696:4880:0409/114907.244:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 11:49:07.27 [13696:6064:0409/114907.272:ERROR:browser_process_sub_thread.cc(209)] Waited 9 ms for network service
+4월 09, 2019 11:53:14.19 [3800:13928:0409/115314.190:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 11:53:14.22 [3800:9996:0409/115314.220:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+
+4월 09, 2019 12:00:24.18 NEW SESSION
+4월 09, 2019 12:00:24.18 [11488:6136:0409/120024.185:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 12:00:24.21 [11488:12040:0409/120024.214:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 09, 2019 12:00:46.92 [1324:3568:0409/120046.928:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 12:00:46.96 [1324:16924:0409/120046.959:ERROR:browser_process_sub_thread.cc(209)] Waited 12 ms for network service
+4월 09, 2019 12:03:06.40 [4876:6372:0409/120306.403:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 12:03:06.44 [4876:4128:0409/120306.440:ERROR:browser_process_sub_thread.cc(209)] Waited 18 ms for network service
+4월 09, 2019 12:11:02.83 [15900:2432:0409/121102.836:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 09, 2019 12:11:02.86 [15900:1164:0409/121102.863:ERROR:browser_process_sub_thread.cc(209)] Waited 7 ms for network service
+4월 09, 2019 13:36:27.81 [2508:8716:0409/133627.810:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 09, 2019 17:05:41.87 [2508:8716:0409/170541.872:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+4월 10, 2019 12:34:58.24 NEW SESSION
+4월 10, 2019 12:34:58.24 [22512:7672:0410/123458.243:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 10, 2019 12:34:58.37 [22512:14292:0410/123458.378:ERROR:browser_process_sub_thread.cc(209)] Waited 89 ms for network service
+4월 10, 2019 13:51:44.36 [20068:6624:0410/135144.364:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 10, 2019 15:11:13.00 [20068:15920:0410/151113.001:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 10, 2019 15:11:13.05 [20068:6624:0410/151113.052:ERROR:browser_process_sub_thread.cc(209)] Waited 17 ms for network service
+4월 10, 2019 16:50:18.17 [15728:3928:0410/165018.174:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 10, 2019 16:50:18.22 [15728:17988:0410/165018.225:ERROR:browser_process_sub_thread.cc(209)] Waited 6 ms for network service
+4월 11, 2019 08:59:50.39 [4304:4664:0411/085950.398:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 11, 2019 08:59:50.66 [4304:4664:0411/085950.662:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 11, 2019 08:59:50.68 [4304:14056:0411/085950.682:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+4월 11, 2019 08:59:50.87 [4304:4840:0411/085950.873:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+4월 11, 2019 09:01:48.94 [4304:16824:0411/090148.948:ERROR:gcm_store_impl.cc(624)] LevelDB remove failed: NotFound: 
+4월 11, 2019 09:01:48.94 [4304:4664:0411/090148.948:ERROR:mcs_client.cc(526)] GCM Update failed!
+
+4월 12, 2019 10:33:57.33 NEW SESSION
+4월 12, 2019 10:33:57.33 [22356:17080:0412/103357.326:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+4월 12, 2019 13:35:27.17 [22356:19700:0412/133527.177:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 12, 2019 15:08:28.99 [22356:17080:0412/150828.992:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 12, 2019 15:08:29.09 [22356:19700:0412/150829.096:ERROR:browser_process_sub_thread.cc(209)] Waited 20 ms for network service
+4월 12, 2019 15:40:31.86 [25384:19532:0412/154031.865:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+4월 12, 2019 16:17:28.55 [25384:19532:0412/161728.550:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+4월 12, 2019 16:17:29.56 [25384:19532:0412/161729.568:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+4월 12, 2019 16:17:30.84 [25384:19532:0412/161730.848:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+
+4월 13, 2019 13:08:55.13 NEW SESSION
+4월 13, 2019 13:08:55.13 [13328:12556:0413/130855.134:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 13, 2019 13:08:58.55 [13328:12556:0413/130858.551:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 13, 2019 13:20:20.41 [13328:12556:0413/132020.411:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -105
+4월 13, 2019 13:20:26.35 [13328:12556:0413/132026.350:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 13, 2019 13:22:33.60 [13328:12608:0413/132233.604:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 13, 2019 13:22:33.71 [13328:12556:0413/132233.712:ERROR:browser_process_sub_thread.cc(209)] Waited 13 ms for network service
+4월 13, 2019 14:09:59.59 [21864:400:0413/140959.587:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 13, 2019 14:10:59.69 [21864:400:0413/141059.695:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -105
+4월 13, 2019 14:11:06.76 [21864:400:0413/141106.759:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+
+4월 15, 2019 13:40:50.06 NEW SESSION
+4월 15, 2019 13:40:50.06 [21384:23352:0415/134050.062:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+4월 16, 2019 11:11:35.79 NEW SESSION
+4월 16, 2019 11:11:35.79 [23816:3264:0416/111135.792:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+4월 16, 2019 15:58:19.05 [23816:22156:0416/155819.049:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 16, 2019 15:58:24.64 [23816:22156:0416/155824.642:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 16, 2019 16:02:31.87 [23816:22156:0416/160231.874:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 16, 2019 16:02:52.01 [23816:22156:0416/160252.015:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 16, 2019 16:03:39.41 [23816:22156:0416/160339.414:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 16, 2019 16:16:28.72 [23816:22156:0416/161628.723:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 16, 2019 16:16:36.30 [23816:22156:0416/161636.305:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 16, 2019 16:16:40.91 [23816:22156:0416/161640.910:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 16, 2019 16:34:05.61 [23816:22156:0416/163405.612:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 16, 2019 16:34:30.04 [23816:22156:0416/163430.043:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+
+4월 17, 2019 15:06:45.07 NEW SESSION
+4월 17, 2019 15:06:45.07 [22448:24280:0417/150645.077:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 17, 2019 15:06:45.10 [22448:23284:0417/150645.106:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+
+4월 18, 2019 10:01:23.57 NEW SESSION
+4월 18, 2019 10:01:23.57 [12792:16632:0418/100123.569:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 18, 2019 11:24:52.37 [12792:23640:0418/112452.375:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+4월 18, 2019 11:24:53.31 [12792:23640:0418/112453.311:ERROR:prefix_selector.cc(163)] NOT IMPLEMENTED
+4월 18, 2019 11:39:52.11 [12792:16632:0418/113952.114:ERROR:mcs_client.cc(757)] Received close command, resetting connection.
+4월 18, 2019 11:55:01.34 [12792:16632:0418/115501.343:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 18, 2019 12:56:02.94 [12792:16632:0418/125602.939:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 18, 2019 13:49:09.90 [12792:16632:0418/134909.900:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 18, 2019 15:31:55.71 [12792:16632:0418/153155.715:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 18, 2019 15:32:01.39 [12792:16632:0418/153201.390:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 18, 2019 15:46:17.62 [12792:16632:0418/154617.624:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 18, 2019 15:46:21.86 [12792:16632:0418/154621.865:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 18, 2019 15:54:40.35 [12792:16632:0418/155440.351:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 18, 2019 19:25:01.26 [12792:23640:0418/192501.259:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 18, 2019 19:25:01.36 [12792:16632:0418/192501.360:ERROR:browser_process_sub_thread.cc(209)] Waited 15 ms for network service
+
+4월 19, 2019 09:17:21.90 NEW SESSION
+4월 19, 2019 09:17:21.90 [13120:4112:0419/091721.901:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 09:17:21.94 [13120:18624:0419/091721.941:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+4월 19, 2019 09:17:27.60 [14276:12140:0419/091727.606:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 09:17:53.13 [14276:13992:0419/091753.132:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 09:17:53.17 [14276:12140:0419/091753.171:ERROR:browser_process_sub_thread.cc(209)] Waited 9 ms for network service
+4월 19, 2019 10:39:11.15 [628:6208:0419/103911.157:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 19, 2019 10:39:17.57 [628:6208:0419/103917.569:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 10:44:49.08 [628:6208:0419/104449.081:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 10:53:23.07 [628:6208:0419/105323.073:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:13:54.61 [628:6208:0419/111354.615:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:28:39.62 [628:6208:0419/112839.629:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:35:29.11 [628:6208:0419/113529.118:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:13.73 [628:6208:0419/114013.739:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 19, 2019 11:40:17.10 [628:6208:0419/114017.107:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:20.60 [628:6208:0419/114020.608:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:28.42 [628:6208:0419/114028.425:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:30.63 [628:6208:0419/114030.629:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 11:40:51.60 [628:6208:0419/114051.605:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:54.03 [628:6208:0419/114054.034:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:40:58.10 [628:6208:0419/114058.106:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:49:35.60 [628:6208:0419/114935.607:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 11:50:47.61 [628:6208:0419/115047.615:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 19, 2019 11:54:22.32 [628:6208:0419/115422.327:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 12:04:53.61 [628:6208:0419/120453.612:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 12:11:10.11 [628:6208:0419/121110.114:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 12:21:34.11 [628:6208:0419/122134.118:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 12:28:05.63 [628:6208:0419/122805.636:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 12:30:37.66 [628:6208:0419/123037.662:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 13:30:26.81 [628:6208:0419/133026.818:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 19, 2019 13:30:26.97 [628:6208:0419/133026.979:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 15:25:39.73 [628:11884:0419/152539.736:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 15:25:39.80 [628:6208:0419/152539.809:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+4월 19, 2019 17:17:33.35 [1340:13996:0419/171733.349:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 17:17:33.42 [1340:6056:0419/171733.426:ERROR:browser_process_sub_thread.cc(209)] Waited 24 ms for network service
+
+4월 19, 2019 20:17:59.08 NEW SESSION
+4월 19, 2019 20:17:59.09 [18916:9484:0419/201759.081:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:18:25.54 [18916:9484:0419/201825.547:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:18:32.43 [18916:9200:0419/201832.432:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-106).
+4월 19, 2019 20:19:19.31 [18916:9484:0419/201919.316:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:20:52.37 [18916:9484:0419/202052.374:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 20:22:36.75 [18916:9200:0419/202236.754:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 20:22:36.88 [18916:9484:0419/202236.879:ERROR:browser_process_sub_thread.cc(209)] Waited 34 ms for network service
+4월 19, 2019 20:23:19.41 [16652:1296:0419/202319.416:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:23:49.36 [16652:1296:0419/202349.367:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:23:52.03 [16652:16844:0419/202352.030:ERROR:account_tracker.cc(239)] AccessTokenFetched error: Connection failed (-106).
+4월 19, 2019 20:38:12.55 [16652:1296:0419/203812.555:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:38:34.55 [16652:1296:0419/203834.557:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:44:12.92 [16652:1296:0419/204412.924:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:44:39.94 [16652:1296:0419/204439.940:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:57:12.32 [16652:1296:0419/205712.322:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:57:35.04 [16652:1296:0419/205735.047:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 20:58:19.05 [16652:1296:0419/205819.057:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:04:12.38 [16652:1296:0419/210412.384:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:04:35.01 [16652:1296:0419/210435.014:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:07:29.93 [16652:16844:0419/210729.931:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 21:07:30.01 [16652:1296:0419/210730.015:ERROR:browser_process_sub_thread.cc(209)] Waited 18 ms for network service
+4월 19, 2019 21:09:12.24 [11292:15516:0419/210912.248:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:09:41.48 [11292:15516:0419/210941.483:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:10:23.28 [11292:15516:0419/211023.278:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:13:11.62 [11292:15516:0419/211311.625:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:13:36.08 [11292:15516:0419/211336.085:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:14:18.68 [11292:15516:0419/211418.679:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:15:12.50 [11292:15516:0419/211512.508:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:15:41.81 [11292:15516:0419/211541.813:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:18:11.31 [11292:15516:0419/211811.311:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:18:39.76 [11292:15516:0419/211839.761:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:19:29.50 [11292:15516:0419/211929.503:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 19, 2019 21:19:31.81 [11292:15516:0419/211931.813:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:19:39.14 [11292:15516:0419/211939.142:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 19, 2019 21:21:11.55 [11292:15516:0419/212111.558:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:21:33.01 [11292:15516:0419/212133.011:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:22:25.14 [11292:15516:0419/212225.144:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:29:12.65 [11292:15516:0419/212912.657:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:29:41.00 [11292:15516:0419/212940.998:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:35:13.01 [11292:15516:0419/213513.003:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:35:38.64 [11292:15516:0419/213538.645:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:36:25.19 [11292:15516:0419/213625.195:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:41:12.15 [11292:15516:0419/214112.154:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:41:37.92 [11292:15516:0419/214137.925:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:48:12.14 [11292:15516:0419/214812.145:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:48:41.98 [11292:15516:0419/214841.983:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:53:12.95 [11292:15516:0419/215312.958:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:53:40.18 [11292:15516:0419/215340.182:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 19, 2019 21:55:01.55 [11292:23428:0419/215501.552:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 19, 2019 21:55:01.59 [11292:15516:0419/215501.599:ERROR:browser_process_sub_thread.cc(209)] Waited 13 ms for network service
+
+4월 20, 2019 24:20:34.62 NEW SESSION
+4월 20, 2019 24:20:34.62 [4968:16636:0420/002034.627:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 20, 2019 24:20:34.66 [4968:14480:0420/002034.664:ERROR:browser_process_sub_thread.cc(209)] Waited 16 ms for network service
+4월 20, 2019 24:47:48.01 [4256:22944:0420/004748.018:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+4월 20, 2019 24:54:03.37 [4256:22944:0420/005403.375:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.391:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.392:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.392:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.392:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.392:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.393:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.393:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.395:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.396:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.396:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.397:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.398:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.398:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.398:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.398:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.39 [4256:9164:0420/005403.399:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.40 [4256:9164:0420/005403.399:ERROR:service_manager_context.cc(242)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\73.0.3683.103\content_browser.service.exe
+4월 20, 2019 24:54:03.41 [4256:9164:0420/005403.414:ERROR:browser_process_sub_thread.cc(209)] Waited 9 ms for network service
+
+4월 20, 2019 17:03:01.02 NEW SESSION
+4월 20, 2019 17:03:01.02 [19520:7424:0420/170301.010:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 20, 2019 17:50:29.41 [19520:16376:0420/175029.418:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 20, 2019 17:50:29.45 [19520:7424:0420/175029.453:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+4월 20, 2019 18:15:56.53 [5080:20292:0420/181556.539:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+
+4월 22, 2019 11:47:39.74 NEW SESSION
+4월 22, 2019 11:47:39.74 [1620:9992:0422/114739.745:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+
+4월 22, 2019 12:44:00.63 NEW SESSION
+4월 22, 2019 12:44:00.63 [8712:15620:0422/124400.630:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 22, 2019 12:44:00.67 [8712:10096:0422/124400.669:ERROR:browser_process_sub_thread.cc(209)] Waited 12 ms for network service
+4월 22, 2019 13:31:17.74 [6092:10616:0422/133117.747:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 22, 2019 14:02:26.83 [6092:14304:0422/140226.832:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+4월 22, 2019 16:06:03.30 [6092:14304:0422/160603.307:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 22, 2019 16:06:03.34 [6092:10616:0422/160603.345:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+4월 22, 2019 18:20:53.67 [17500:12736:0422/182053.675:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 22, 2019 18:20:53.71 [17500:9680:0422/182053.709:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 22, 2019 18:43:32.29 [14664:9288:0422/184332.290:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 22, 2019 18:43:32.32 [14664:2396:0422/184332.328:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+
+4월 23, 2019 13:37:49.89 NEW SESSION
+4월 23, 2019 13:37:49.89 [7060:5056:0423/133749.891:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+4월 24, 2019 11:55:07.27 NEW SESSION
+4월 24, 2019 11:55:07.27 [15788:872:0424/115507.270:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 24, 2019 11:55:13.66 [15788:872:0424/115513.660:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 24, 2019 14:12:05.03 [15788:872:0424/141205.036:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 24, 2019 15:41:59.99 [15788:872:0424/154159.997:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 24, 2019 15:42:17.65 [15788:872:0424/154217.655:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+
+4월 25, 2019 09:12:59.54 NEW SESSION
+4월 25, 2019 09:12:59.54 [13940:6916:0425/091259.536:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+4월 25, 2019 09:48:27.07 [13940:6916:0425/094827.076:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 25, 2019 09:48:27.13 [13940:2264:0425/094827.132:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 25, 2019 10:53:07.06 [3532:12232:0425/105307.061:ERROR:textfield.cc(1768)] NOT IMPLEMENTED
+
+4월 25, 2019 15:25:56.51 NEW SESSION
+4월 25, 2019 15:25:56.51 [16468:14832:0425/152556.516:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 25, 2019 15:25:56.54 [16468:3460:0425/152556.546:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 25, 2019 18:20:09.26 [12476:17100:0425/182009.262:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 25, 2019 18:20:09.31 [12476:4656:0425/182009.313:ERROR:browser_process_sub_thread.cc(209)] Waited 15 ms for network service
+
+4월 26, 2019 09:59:56.64 NEW SESSION
+4월 26, 2019 09:59:56.64 [12652:21264:0426/095956.640:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 26, 2019 09:59:56.70 [12652:11552:0426/095956.696:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+4월 26, 2019 12:20:17.37 [1628:10352:0426/122017.372:ERROR:mcs_client.cc(757)] Received close command, resetting connection.
+4월 26, 2019 13:47:26.62 [1628:2228:0426/134726.622:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 26, 2019 13:47:26.66 [1628:10352:0426/134726.660:ERROR:browser_process_sub_thread.cc(209)] Waited 12 ms for network service
+4월 26, 2019 16:23:14.14 [15796:13008:0426/162314.141:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 26, 2019 16:23:14.18 [15796:4024:0426/162314.181:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+4월 26, 2019 17:42:13.42 [2628:7792:0426/174213.420:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 26, 2019 17:42:13.46 [2628:7032:0426/174213.461:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+4월 26, 2019 17:42:13.47 [2628:18860:0426/174213.468:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+4월 26, 2019 17:42:23.86 [2628:7792:0426/174223.863:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 26, 2019 17:48:22.13 [2628:7792:0426/174822.137:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 26, 2019 17:48:28.18 [2628:7792:0426/174828.181:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 26, 2019 18:46:05.29 [2628:7792:0426/184605.292:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+4월 26, 2019 18:46:11.64 [2628:7792:0426/184611.647:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+4월 26, 2019 19:03:09.89 [2628:7792:0426/190309.892:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+
+4월 29, 2019 09:33:29.18 NEW SESSION
+4월 29, 2019 09:33:29.18 [7140:11112:0429/093329.181:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 29, 2019 09:33:29.21 [7140:15328:0429/093329.212:ERROR:browser_process_sub_thread.cc(209)] Waited 7 ms for network service
+
+4월 29, 2019 16:49:34.07 NEW SESSION
+4월 29, 2019 16:49:34.07 [6508:3380:0429/164934.070:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 29, 2019 16:49:34.10 [6508:13348:0429/164934.103:ERROR:browser_process_sub_thread.cc(209)] Waited 11 ms for network service
+4월 30, 2019 09:34:09.84 [2744:18344:0430/093409.846:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 09:34:09.87 [2744:17296:0430/093409.876:ERROR:browser_process_sub_thread.cc(209)] Waited 6 ms for network service
+4월 30, 2019 12:19:27.76 [16164:16152:0430/121927.760:ERROR:CONSOLE(972)] "TypeError: Cannot read property 'pseudoType' of undefined TypeError: Cannot read property 'pseudoType' of undefined
+4월 30, 2019 12:19:27.76     at SDK.DOMNode._removeChild (chrome-devtools://devtools/bundled/shell.js:4301:28)
+4월 30, 2019 12:19:27.76     at SDK.DOMModel._childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4420:121)
+4월 30, 2019 12:19:27.76     at SDK.DOMDispatcher.childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4464:54)
+4월 30, 2019 12:19:27.76     at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/shell.js:3399:26)
+4월 30, 2019 12:19:27.76     at Protocol.SessionRouter._onMessage (chrome-devtools://devtools/bundled/shell.js:3355:41)
+4월 30, 2019 12:19:27.76     at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/shell.js:3486:17)
+4월 30, 2019 12:19:27.76     at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/shell.js:494:23)
+4월 30, 2019 12:19:27.76     at innerDispatch (chrome-devtools://devtools/bundled/shell.js:972:98)
+4월 30, 2019 12:19:27.76     at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/shell.js:972:1)
+4월 30, 2019 12:19:27.76     at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)", source: chrome-devtools://devtools/bundled/shell.js (972)
+4월 30, 2019 12:20:12.00 [16164:16152:0430/122012.002:ERROR:CONSOLE(972)] "TypeError: Cannot read property 'pseudoType' of undefined TypeError: Cannot read property 'pseudoType' of undefined
+4월 30, 2019 12:20:12.00     at SDK.DOMNode._removeChild (chrome-devtools://devtools/bundled/shell.js:4301:28)
+4월 30, 2019 12:20:12.00     at SDK.DOMModel._childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4420:121)
+4월 30, 2019 12:20:12.00     at SDK.DOMDispatcher.childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4464:54)
+4월 30, 2019 12:20:12.00     at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/shell.js:3399:26)
+4월 30, 2019 12:20:12.00     at Protocol.SessionRouter._onMessage (chrome-devtools://devtools/bundled/shell.js:3355:41)
+4월 30, 2019 12:20:12.00     at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/shell.js:3486:17)
+4월 30, 2019 12:20:12.00     at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/shell.js:494:23)
+4월 30, 2019 12:20:12.00     at innerDispatch (chrome-devtools://devtools/bundled/shell.js:972:98)
+4월 30, 2019 12:20:12.00     at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/shell.js:972:1)
+4월 30, 2019 12:20:12.00     at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)", source: chrome-devtools://devtools/bundled/shell.js (972)
+4월 30, 2019 13:46:35.50 [16164:4944:0430/134635.499:ERROR:socket_stream.cc(219)] Closing stream with result -2
+4월 30, 2019 14:12:03.20 [16164:16152:0430/141203.201:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 14:12:03.23 [16164:4944:0430/141203.237:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+
+4월 30, 2019 15:50:39.38 NEW SESSION
+4월 30, 2019 15:50:39.38 [11128:18684:0430/155039.385:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 15:50:39.41 [11128:13932:0430/155039.411:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+4월 30, 2019 16:11:06.97 [276:4936:0430/161106.977:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 16:11:07.00 [276:872:0430/161107.005:ERROR:browser_process_sub_thread.cc(209)] Waited 9 ms for network service
+
+4월 30, 2019 16:29:19.13 NEW SESSION
+4월 30, 2019 16:29:19.13 [6888:2576:0430/162919.133:ERROR:backend_impl.cc(1063)] Critical error found -8
+4월 30, 2019 17:32:16.71 [6888:16140:0430/173216.712:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 17:32:16.74 [6888:3176:0430/173216.741:ERROR:browser_process_sub_thread.cc(209)] Waited 7 ms for network service
+4월 30, 2019 17:36:52.46 [17240:17156:0430/173652.462:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+4월 30, 2019 17:36:52.49 [17240:13880:0430/173652.491:ERROR:browser_process_sub_thread.cc(209)] Waited 10 ms for network service
+
+5월 01, 2019 09:44:42.56 NEW SESSION
+5월 01, 2019 09:44:42.56 [10284:8520:0501/094442.558:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 01, 2019 09:44:42.59 [10284:8384:0501/094442.591:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+5월 01, 2019 12:19:36.55 [11608:15508:0501/121936.550:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 12:19:58.37 [11608:15508:0501/121958.375:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 12:20:35.73 [11608:15508:0501/122035.738:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 12:21:50.51 [11608:15508:0501/122150.516:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 12:24:22.93 [11608:15508:0501/122422.931:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 13:41:11.51 [11608:3312:0501/134111.517:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 01, 2019 14:57:44.59 [11608:15508:0501/145744.592:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:57:46.65 [11608:15508:0501/145746.658:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:57:51.13 [11608:15508:0501/145751.134:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:57:58.83 [11608:15508:0501/145758.834:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:58:15.45 [11608:15508:0501/145815.451:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:58:46.83 [11608:15508:0501/145846.837:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 14:59:50.61 [11608:15508:0501/145950.619:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:01:54.27 [11608:15508:0501/150154.275:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:06:32.27 [11608:15508:0501/150632.275:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:07:45.51 [11608:15508:0501/150745.516:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:12:34.43 [11608:15508:0501/151234.436:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:17:30.03 [11608:15508:0501/151730.035:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:17:45.10 [11608:15508:0501/151745.109:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:22:45.43 [11608:15508:0501/152245.437:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:27:45.26 [11608:15508:0501/152745.266:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:31:22.79 [11608:15508:0501/153122.793:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:31:42.02 [11608:15508:0501/153142.026:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:32:20.84 [11608:15508:0501/153220.846:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:32:21.29 [11608:15508:0501/153221.294:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:33:44.67 [11608:15508:0501/153344.670:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:36:23.78 [11608:15508:0501/153623.783:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:37:16.88 [11608:15508:0501/153716.885:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:37:45.21 [11608:15508:0501/153745.210:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:37:45.21 [11608:15508:0501/153745.210:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:42:24.26 [11608:15508:0501/154224.267:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:42:46.21 [11608:15508:0501/154246.209:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:47:01.26 [11608:15508:0501/154701.268:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:47:46.39 [11608:15508:0501/154746.390:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:47:46.39 [11608:15508:0501/154746.391:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:52:45.42 [11608:15508:0501/155245.426:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:52:47.21 [11608:15508:0501/155247.211:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:57:25.91 [11608:15508:0501/155725.916:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:57:42.21 [11608:15508:0501/155742.215:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:57:47.21 [11608:15508:0501/155747.219:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 15:57:47.22 [11608:15508:0501/155747.220:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:02:49.36 [11608:15508:0501/160249.366:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:02:49.39 [11608:15508:0501/160249.398:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:07:48.64 [11608:15508:0501/160748.641:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:07:48.64 [11608:15508:0501/160748.642:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:12:49.42 [11608:15508:0501/161249.422:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:12:49.42 [11608:15508:0501/161249.422:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:17:49.26 [11608:15508:0501/161749.267:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:17:49.27 [11608:15508:0501/161749.271:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:22:48.09 [11608:15508:0501/162248.096:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:22:52.54 [11608:15508:0501/162252.547:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:27:48.26 [11608:15508:0501/162748.261:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:27:50.21 [11608:15508:0501/162750.210:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:27:50.21 [11608:15508:0501/162750.210:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:32:21.24 [11608:15508:0501/163221.247:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:32:51.25 [11608:15508:0501/163251.251:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:37:28.41 [11608:15508:0501/163728.418:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:37:44.20 [11608:15508:0501/163744.208:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:37:51.32 [11608:15508:0501/163751.324:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:37:51.32 [11608:15508:0501/163751.325:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:42:27.42 [11608:15508:0501/164227.428:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:42:52.21 [11608:15508:0501/164252.210:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:47:28.27 [11608:15508:0501/164728.275:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:47:52.20 [11608:15508:0501/164752.207:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:47:52.21 [11608:15508:0501/164752.212:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:54:56.30 [11608:15508:0501/165456.306:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:54:56.32 [11608:15508:0501/165456.306:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:58:48.73 [11608:3312:0501/165848.732:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 01, 2019 16:58:49.56 [11608:15508:0501/165849.560:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 16:58:49.74 [11608:15508:0501/165849.561:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 17:03:49.78 [11608:15508:0501/170349.788:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 17:03:50.59 [11608:15508:0501/170350.587:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 17:08:23.63 [11608:15508:0501/170823.636:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 17:08:45.56 [11608:15508:0501/170845.565:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 01, 2019 17:08:45.61 [11608:15508:0501/170845.611:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+
+5월 02, 2019 09:30:08.68 NEW SESSION
+5월 02, 2019 09:30:08.68 [10068:3484:0502/093008.685:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 09:30:37.04 [10068:3484:0502/093037.043:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 09:31:29.36 [10068:3484:0502/093129.368:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 09:33:05.28 [10068:3484:0502/093305.281:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 10:11:24.17 [10068:3484:0502/101124.170:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 13:51:56.21 [10068:3484:0502/135156.214:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 02, 2019 15:25:16.66 [10068:10600:0502/152516.666:ERROR:CONSOLE(972)] "TypeError: Cannot read property 'pseudoType' of undefined TypeError: Cannot read property 'pseudoType' of undefined
+5월 02, 2019 15:25:16.67     at SDK.DOMNode._removeChild (chrome-devtools://devtools/bundled/shell.js:4301:28)
+5월 02, 2019 15:25:16.68     at SDK.DOMModel._childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4420:121)
+5월 02, 2019 15:25:16.68     at SDK.DOMDispatcher.childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4464:54)
+5월 02, 2019 15:25:16.69     at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/shell.js:3399:26)
+5월 02, 2019 15:25:16.70     at Protocol.SessionRouter._onMessage (chrome-devtools://devtools/bundled/shell.js:3355:41)
+5월 02, 2019 15:25:16.70     at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/shell.js:3486:17)
+5월 02, 2019 15:25:16.71     at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/shell.js:494:23)
+5월 02, 2019 15:25:16.71     at innerDispatch (chrome-devtools://devtools/bundled/shell.js:972:98)
+5월 02, 2019 15:25:16.72     at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/shell.js:972:1)
+5월 02, 2019 15:25:16.72     at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)", source: chrome-devtools://devtools/bundled/shell.js (972)
+5월 02, 2019 15:25:42.69 [10068:10600:0502/152542.695:ERROR:CONSOLE(972)] "TypeError: Cannot read property 'pseudoType' of undefined TypeError: Cannot read property 'pseudoType' of undefined
+5월 02, 2019 15:25:42.70     at SDK.DOMNode._removeChild (chrome-devtools://devtools/bundled/shell.js:4301:28)
+5월 02, 2019 15:25:42.70     at SDK.DOMModel._childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4420:121)
+5월 02, 2019 15:25:42.71     at SDK.DOMDispatcher.childNodeRemoved (chrome-devtools://devtools/bundled/shell.js:4464:54)
+5월 02, 2019 15:25:42.71     at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/shell.js:3399:26)
+5월 02, 2019 15:25:42.72     at Protocol.SessionRouter._onMessage (chrome-devtools://devtools/bundled/shell.js:3355:41)
+5월 02, 2019 15:25:42.72     at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/shell.js:3486:17)
+5월 02, 2019 15:25:42.73     at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/shell.js:494:23)
+5월 02, 2019 15:25:42.73     at innerDispatch (chrome-devtools://devtools/bundled/shell.js:972:98)
+5월 02, 2019 15:25:42.74     at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/shell.js:972:1)
+5월 02, 2019 15:25:42.75     at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)", source: chrome-devtools://devtools/bundled/shell.js (972)
+5월 02, 2019 16:04:47.22 [10068:10600:0502/160447.227:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 02, 2019 16:04:47.28 [10068:3484:0502/160447.281:ERROR:browser_process_sub_thread.cc(209)] Waited 17 ms for network service
+5월 02, 2019 17:06:33.85 [11004:18696:0502/170633.855:ERROR:mcs_client.cc(757)] Received close command, resetting connection.
+5월 02, 2019 17:42:36.28 [11004:18696:0502/174236.280:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 02, 2019 17:49:23.53 [11004:13592:0502/174923.531:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 17:49:45.45 [11004:13592:0502/174945.456:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 17:50:26.81 [11004:13592:0502/175026.809:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 17:51:40.68 [11004:13592:0502/175140.681:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 17:54:26.48 [11004:13592:0502/175426.488:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 17:58:49.67 [11004:13592:0502/175849.675:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:03:50.51 [11004:13592:0502/180350.518:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:08:50.67 [11004:13592:0502/180850.674:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:13:51.51 [11004:13592:0502/181351.517:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:18:40.66 [11004:13592:0502/181840.669:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:18:51.45 [11004:13592:0502/181851.453:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:23:52.51 [11004:13592:0502/182352.518:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:28:52.52 [11004:13592:0502/182852.520:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:33:53.51 [11004:13592:0502/183353.515:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:38:53.69 [11004:13592:0502/183853.690:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:43:27.68 [11004:13592:0502/184327.680:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:48:28.51 [11004:13592:0502/184828.517:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:48:54.45 [11004:13592:0502/184854.455:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:53:55.54 [11004:13592:0502/185355.533:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 18:58:55.67 [11004:13592:0502/185855.673:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:03:56.69 [11004:13592:0502/190356.695:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:08:56.53 [11004:13592:0502/190856.530:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:13:35.68 [11004:13592:0502/191335.689:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:18:36.67 [11004:13592:0502/191836.678:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:18:57.45 [11004:13592:0502/191857.457:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:23:58.52 [11004:13592:0502/192358.524:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:28:58.51 [11004:13592:0502/192858.514:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:33:31.51 [11004:13592:0502/193331.514:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:38:21.68 [11004:13592:0502/193821.684:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:38:59.49 [11004:13592:0502/193859.495:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:44:00.69 [11004:13592:0502/194400.692:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:49:00.52 [11004:13592:0502/194900.520:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:53:53.69 [11004:13592:0502/195353.695:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 19:55:44.91 [11004:18696:0502/195544.913:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 19:56:11.45 [11004:18696:0502/195611.454:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 19:56:59.07 [11004:18696:0502/195659.070:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 19:58:37.77 [11004:18696:0502/195837.779:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:09:16.96 [11004:18696:0502/200916.963:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:16:21.57 [11004:18696:0502/201621.573:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:26:21.57 [11004:18696:0502/202621.578:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:27:00.00 [11004:13592:0502/202700.001:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:27:23.51 [11004:13592:0502/202723.513:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:28:15.05 [11004:13592:0502/202815.057:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:30:04.73 [11004:13592:0502/203004.737:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:33:21.21 [11004:13592:0502/203321.215:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:36:21.58 [11004:18696:0502/203621.586:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:39:16.46 [11004:13592:0502/203916.465:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:46:21.59 [11004:18696:0502/204621.587:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:49:16.47 [11004:13592:0502/204916.474:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:56:21.59 [11004:18696:0502/205621.594:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 20:59:03.33 [11004:10572:0502/205903.339:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 02, 2019 20:59:16.47 [11004:13592:0502/205916.475:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 02, 2019 20:59:48.34 [11004:10572:0502/205948.346:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 02, 2019 21:00:56.34 [11004:10572:0502/210056.348:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 02, 2019 22:09:14.46 [11004:18696:0502/220914.462:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 02, 2019 23:10:28.14 [11004:18696:0502/231028.140:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 02, 2019 23:10:30.45 [11004:18696:0502/231030.448:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 02, 2019 23:15:19.40 [11004:13592:0502/231519.405:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:19:55.39 [11004:13592:0502/231955.387:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:20:24.12 [11004:13592:0502/232024.126:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:25:25.13 [11004:13592:0502/232525.138:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:30:02.15 [11004:13592:0502/233002.156:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:30:25.11 [11004:13592:0502/233025.116:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:35:26.35 [11004:13592:0502/233526.358:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:40:01.37 [11004:13592:0502/234001.371:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:40:26.11 [11004:13592:0502/234026.110:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:45:01.16 [11004:13592:0502/234501.165:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:49:55.43 [11004:13592:0502/234955.432:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:50:27.12 [11004:13592:0502/235027.127:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 02, 2019 23:55:28.40 [11004:13592:0502/235528.408:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:00:28.38 [11004:13592:0503/000028.383:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:05:29.15 [11004:13592:0503/000529.157:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:10:12.37 [11004:13592:0503/001012.370:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:10:29.78 [11004:13592:0503/001029.121:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:15:12.14 [11004:13592:0503/001512.147:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:20:13.14 [11004:13592:0503/002013.145:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:20:30.11 [11004:13592:0503/002030.111:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:25:31.38 [11004:13592:0503/002531.384:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+5월 03, 2019 24:30:31.34 [11004:13592:0503/003031.347:ERROR:CONSOLE(0)] "Access to XMLHttpRequest at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'chrome-search://local-ntp' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin.", source: chrome-search://local-ntp/local-ntp.html (0)
+
+5월 03, 2019 10:44:54.45 NEW SESSION
+5월 03, 2019 10:44:54.45 [5276:10564:0503/104454.448:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 03, 2019 10:44:54.48 [5276:14408:0503/104454.483:ERROR:browser_process_sub_thread.cc(209)] Waited 12 ms for network service
+5월 03, 2019 11:43:17.58 [18672:13684:0503/114317.584:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 03, 2019 11:43:17.61 [18672:8684:0503/114317.617:ERROR:browser_process_sub_thread.cc(209)] Waited 16 ms for network service
+5월 03, 2019 13:35:03.27 [17172:16816:0503/133503.278:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 03, 2019 16:43:28.24 [17172:11276:0503/164328.240:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 03, 2019 16:43:28.31 [17172:16816:0503/164328.311:ERROR:browser_process_sub_thread.cc(209)] Waited 24 ms for network service
+5월 04, 2019 01:40:42.19 [2500:7364:0504/014042.187:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 04, 2019 03:34:23.05 [2500:7364:0504/033423.055:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 04, 2019 03:34:23.31 [2500:7364:0504/033423.313:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 04, 2019 03:34:23.41 [2500:18028:0504/033423.410:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 07, 2019 09:00:14.81 [2500:7364:0507/090014.812:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 07, 2019 09:00:15.08 [2500:7364:0507/090014.816:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 07, 2019 09:00:15.08 [2500:15396:0507/090014.820:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 07, 2019 09:00:15.61 [2500:18028:0507/090015.611:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 07, 2019 09:31:52.50 [2500:18028:0507/093152.508:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 07, 2019 09:31:52.56 [2500:7364:0507/093152.564:ERROR:browser_process_sub_thread.cc(209)] Waited 8 ms for network service
+5월 07, 2019 10:36:54.46 [24312:24200:0507/103654.467:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 07, 2019 11:05:12.53 [24312:24200:0507/110512.530:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 07, 2019 11:05:15.66 [24312:24200:0507/110515.665:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 07, 2019 12:31:52.71 [24312:24200:0507/123152.714:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 07, 2019 12:32:00.56 [24312:24200:0507/123200.565:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 08, 2019 08:57:06.31 [24312:24200:0508/085706.312:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 08, 2019 08:57:06.40 [24312:23444:0508/085706.336:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 08, 2019 08:57:06.45 [24312:15688:0508/085706.455:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 08, 2019 08:58:18.00 [24312:23676:0508/085818.005:ERROR:gcm_store_impl.cc(624)] LevelDB remove failed: NotFound: 
+5월 08, 2019 08:58:18.01 [24312:24200:0508/085818.005:ERROR:mcs_client.cc(526)] GCM Update failed!
+5월 08, 2019 13:51:51.26 [24312:24200:0508/135151.261:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 08, 2019 15:14:38.44 [24312:24200:0508/151438.449:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -105
+5월 08, 2019 16:39:28.80 [24312:24200:0508/163928.789:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 08, 2019 17:54:23.96 [24312:24200:0508/175423.961:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 09, 2019 09:05:13.83 [24312:24200:0509/090513.835:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 09, 2019 09:05:14.17 [24312:24200:0509/090514.172:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 09, 2019 09:05:14.25 [24312:24200:0509/090514.256:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 09, 2019 09:05:14.31 [24312:15688:0509/090514.256:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+5월 09, 2019 13:42:52.43 NEW SESSION
+5월 09, 2019 13:42:52.43 [2252:12824:0509/134252.434:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 09, 2019 13:55:44.29 [2252:9992:0509/135544.298:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-EVjR8L4xuo0c7UNzAtLmKQoojKIjdHqYIqdanwmukFQ=' 'sha256-7Cb/hw63HxkRDnIh6Nlq9BCoC9GoILc14LE65ABFEiA=' 'sha256-rfz9Zof79G2YaFr+4+j2fvNjNEnOdl5YnT+9F3HvmdY=' 'sha256-bC49jEFHb2vvCeIbKbHKxNMnI7+6P9d0YhG8jfTvRzU=' 'sha256-6h/FfYkbXEq16S7SMLcO05mJkdz56y2b8HtPdLZmMhA=' 'sha256-F/uxTxmIB+TXvkVBPdiX36hMiHjGTtrHZWFzoRAgyoY=' 'sha256-D+7Bk9wgGB+FOw7FbfttHRpLRznQXuaSbSORuHxMQQ8='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.
+5월 09, 2019 13:55:44.30 ", source: chrome-search://local-ntp/local-ntp.html (1)
+5월 09, 2019 14:07:46.28 [2252:9992:0509/140746.289:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-EVjR8L4xuo0c7UNzAtLmKQoojKIjdHqYIqdanwmukFQ=' 'sha256-7Cb/hw63HxkRDnIh6Nlq9BCoC9GoILc14LE65ABFEiA=' 'sha256-rfz9Zof79G2YaFr+4+j2fvNjNEnOdl5YnT+9F3HvmdY=' 'sha256-bC49jEFHb2vvCeIbKbHKxNMnI7+6P9d0YhG8jfTvRzU=' 'sha256-6h/FfYkbXEq16S7SMLcO05mJkdz56y2b8HtPdLZmMhA=' 'sha256-F/uxTxmIB+TXvkVBPdiX36hMiHjGTtrHZWFzoRAgyoY=' 'sha256-D+7Bk9wgGB+FOw7FbfttHRpLRznQXuaSbSORuHxMQQ8='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.
+5월 09, 2019 14:07:46.29 ", source: chrome-search://local-ntp/local-ntp.html (1)
+5월 09, 2019 17:08:54.07 [2252:12824:0509/170854.071:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:09:23.25 [2252:12824:0509/170923.249:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:15:39.51 [2252:12824:0509/171539.513:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:17:20.73 [2252:12824:0509/171720.737:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:20:01.73 [2252:12824:0509/172001.736:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:22:28.51 [2252:9992:0509/172228.518:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:22:54.27 [2252:9992:0509/172254.275:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:23:34.49 [2252:9992:0509/172334.490:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:24:55.35 [2252:9992:0509/172455.350:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:25:25.62 [2252:12824:0509/172525.621:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:28:50.51 [2252:9992:0509/172850.514:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:35:25.62 [2252:12824:0509/173525.628:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:36:49.95 [2252:9992:0509/173649.956:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:45:25.63 [2252:12824:0509/174525.632:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:46:49.96 [2252:9992:0509/174649.962:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 17:55:25.63 [2252:12824:0509/175525.636:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 17:56:49.97 [2252:9992:0509/175649.969:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:05:25.64 [2252:12824:0509/180525.640:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:06:49.97 [2252:9992:0509/180649.974:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:15:25.64 [2252:12824:0509/181525.646:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:16:49.98 [2252:9992:0509/181649.979:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:25:25.65 [2252:12824:0509/182525.651:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:26:49.98 [2252:9992:0509/182649.988:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:35:25.65 [2252:12824:0509/183525.655:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:36:49.99 [2252:9992:0509/183649.993:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:45:25.65 [2252:12824:0509/184525.658:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:46:50.00 [2252:9992:0509/184650.003:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 18:55:25.66 [2252:12824:0509/185525.661:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 18:56:50.01 [2252:9992:0509/185650.010:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:05:25.66 [2252:12824:0509/190525.665:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:06:50.01 [2252:9992:0509/190650.017:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:15:25.67 [2252:12824:0509/191525.674:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:16:50.02 [2252:9992:0509/191650.025:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:25:25.68 [2252:12824:0509/192525.682:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:26:50.02 [2252:9992:0509/192650.028:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:35:25.68 [2252:12824:0509/193525.685:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:36:50.03 [2252:9992:0509/193650.033:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:45:25.69 [2252:12824:0509/194525.687:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:46:50.04 [2252:9992:0509/194650.043:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 19:55:25.69 [2252:12824:0509/195525.697:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 19:56:50.05 [2252:9992:0509/195650.049:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:05:25.70 [2252:12824:0509/200525.700:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:06:50.05 [2252:9992:0509/200650.056:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:15:25.70 [2252:12824:0509/201525.705:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:16:50.06 [2252:9992:0509/201650.062:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:25:25.71 [2252:12824:0509/202525.712:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:26:50.07 [2252:9992:0509/202650.070:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:35:25.71 [2252:12824:0509/203525.716:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:36:50.08 [2252:9992:0509/203650.081:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:45:25.72 [2252:12824:0509/204525.724:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:46:50.08 [2252:9992:0509/204650.087:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 20:55:25.73 [2252:12824:0509/205525.733:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 20:56:50.09 [2252:9992:0509/205650.094:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:05:25.74 [2252:12824:0509/210525.740:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:05:26.01 [2252:4004:0509/210526.017:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:06:41.02 [2252:4004:0509/210641.022:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:06:50.10 [2252:9992:0509/210650.100:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:09:48.03 [2252:4004:0509/210948.031:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:15:25.74 [2252:12824:0509/211525.746:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:16:50.10 [2252:9992:0509/211650.108:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:17:35.03 [2252:4004:0509/211735.037:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:25:25.75 [2252:12824:0509/212525.749:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:26:50.11 [2252:9992:0509/212650.117:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:27:35.04 [2252:4004:0509/212735.043:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:35:25.75 [2252:12824:0509/213525.754:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:36:50.12 [2252:9992:0509/213650.123:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:37:35.04 [2252:4004:0509/213735.047:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:45:25.76 [2252:12824:0509/214525.761:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:46:50.13 [2252:9992:0509/214650.132:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:47:35.05 [2252:4004:0509/214735.055:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 21:55:25.76 [2252:12824:0509/215525.763:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 21:56:50.13 [2252:9992:0509/215650.137:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 21:57:35.06 [2252:4004:0509/215735.065:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:05:25.76 [2252:12824:0509/220525.769:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:06:50.14 [2252:9992:0509/220650.142:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:07:35.07 [2252:4004:0509/220735.074:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:15:25.77 [2252:12824:0509/221525.776:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:16:50.15 [2252:9992:0509/221650.151:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:17:35.08 [2252:4004:0509/221735.080:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:25:25.78 [2252:12824:0509/222525.781:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:26:50.15 [2252:9992:0509/222650.156:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:27:35.08 [2252:4004:0509/222735.087:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:35:25.78 [2252:12824:0509/223525.786:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:36:50.16 [2252:9992:0509/223650.162:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:37:35.09 [2252:4004:0509/223735.094:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:45:25.79 [2252:12824:0509/224525.790:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:46:50.16 [2252:9992:0509/224650.166:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:47:35.10 [2252:4004:0509/224735.100:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 22:55:25.79 [2252:12824:0509/225525.793:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 22:56:50.17 [2252:9992:0509/225650.173:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 22:57:35.10 [2252:4004:0509/225735.109:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:05:25.79 [2252:12824:0509/230525.797:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:06:50.18 [2252:9992:0509/230650.183:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:07:35.11 [2252:4004:0509/230735.115:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:15:25.80 [2252:12824:0509/231525.798:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:16:50.19 [2252:9992:0509/231650.189:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:17:35.12 [2252:4004:0509/231735.122:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:25:25.80 [2252:12824:0509/232525.805:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:26:50.19 [2252:9992:0509/232650.196:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:27:35.13 [2252:4004:0509/232735.129:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:35:25.81 [2252:12824:0509/233525.813:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:36:50.20 [2252:9992:0509/233650.200:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:37:35.13 [2252:4004:0509/233735.139:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:45:25.81 [2252:12824:0509/234525.818:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:46:50.20 [2252:9992:0509/234650.205:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:47:35.14 [2252:4004:0509/234735.145:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 09, 2019 23:55:25.82 [2252:12824:0509/235525.824:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 09, 2019 23:56:50.21 [2252:9992:0509/235650.212:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 09, 2019 23:57:35.15 [2252:4004:0509/235735.154:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:05:25.83 [2252:12824:0510/000525.834:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:06:50.21 [2252:9992:0510/000650.219:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:07:35.15 [2252:4004:0510/000735.158:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:15:25.83 [2252:12824:0510/001525.836:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:16:50.22 [2252:9992:0510/001650.224:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:17:35.17 [2252:4004:0510/001735.171:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:25:25.84 [2252:12824:0510/002525.844:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:26:50.23 [2252:9992:0510/002650.232:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:27:35.17 [2252:4004:0510/002735.175:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:35:25.85 [2252:12824:0510/003525.849:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:36:50.23 [2252:9992:0510/003650.237:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:37:35.18 [2252:4004:0510/003735.183:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:45:25.85 [2252:12824:0510/004525.852:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:46:50.24 [2252:9992:0510/004650.247:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:47:35.18 [2252:4004:0510/004735.188:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 24:55:25.86 [2252:12824:0510/005525.859:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 24:56:50.25 [2252:9992:0510/005650.254:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 10, 2019 24:57:35.19 [2252:4004:0510/005735.193:ERROR:get_updates_processor.cc(243)] PostClientToServerMessage() failed during GetUpdates
+5월 10, 2019 01:05:25.86 [2252:12824:0510/010525.866:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+5월 10, 2019 01:06:39.77 [2252:12824:0510/010639.776:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 10, 2019 01:06:42.24 [2252:12824:0510/010642.247:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -21
+5월 10, 2019 10:13:35.52 [2252:9992:0510/101335.525:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+5월 10, 2019 10:13:35.60 [2252:12824:0510/101335.606:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+
+5월 10, 2019 10:35:08.83 NEW SESSION
+5월 10, 2019 10:35:08.83 [22132:21416:0510/103508.830:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 10, 2019 10:35:08.88 [22132:23404:0510/103508.885:ERROR:browser_process_sub_thread.cc(217)] Waited 17 ms for network service
+5월 10, 2019 10:35:17.84 [12824:11256:0510/103517.844:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 10, 2019 10:35:17.90 [12824:23780:0510/103517.902:ERROR:browser_process_sub_thread.cc(217)] Waited 35 ms for network service
+
+5월 10, 2019 13:41:07.98 NEW SESSION
+5월 10, 2019 13:41:07.98 [24532:9420:0510/134107.984:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 10, 2019 14:24:57.09 [24532:380:0510/142457.099:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 10, 2019 14:24:57.13 [24532:9420:0510/142457.131:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+
+5월 10, 2019 15:12:50.72 NEW SESSION
+5월 10, 2019 15:12:50.72 [10688:11792:0510/151250.727:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 10, 2019 15:12:50.78 [10688:12508:0510/151250.786:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+
+5월 12, 2019 17:51:39.44 NEW SESSION
+5월 12, 2019 17:51:39.44 [16460:3336:0512/175139.435:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 12, 2019 17:51:40.93 [16460:3336:0512/175140.938:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 12, 2019 17:51:40.93 [16460:3336:0512/175140.938:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 12, 2019 17:51:40.96 [16460:11708:0512/175140.962:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 12, 2019 17:51:40.99 [16460:10496:0512/175140.990:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 12, 2019 23:37:21.03 [16460:3336:0512/233721.029:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 12, 2019 23:37:21.09 [16460:11708:0512/233721.090:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 12, 2019 23:37:21.70 [16460:10496:0512/233721.701:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 12, 2019 23:37:30.68 [16460:3336:0512/233730.660:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+
+5월 13, 2019 13:51:51.62 NEW SESSION
+5월 13, 2019 13:51:51.62 [19380:5572:0513/135151.626:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 13, 2019 13:51:51.69 [19380:5572:0513/135151.697:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 13, 2019 17:24:50.97 [19380:5572:0513/172450.972:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 14, 2019 09:04:46.89 [19380:19296:0514/090446.886:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 14, 2019 09:04:47.12 [19380:9152:0514/090447.122:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 14, 2019 10:28:53.35 [19380:5572:0514/102853.350:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 15, 2019 08:53:37.52 [19380:19296:0515/085337.517:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 15, 2019 08:53:42.36 [19380:5572:0515/085342.363:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 15, 2019 08:53:42.45 [19380:5572:0515/085342.439:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 15, 2019 08:53:50.62 [19380:5572:0515/085350.620:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 15, 2019 08:55:20.55 [19380:14252:0515/085520.551:ERROR:gcm_store_impl.cc(629)] LevelDB remove failed: NotFound: 
+5월 15, 2019 08:55:20.57 [19380:5572:0515/085520.551:ERROR:mcs_client.cc(526)] GCM Update failed!
+5월 15, 2019 13:35:19.38 [19380:5572:0515/133519.384:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 15, 2019 16:29:01.43 [19380:19296:0515/162901.438:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 15, 2019 16:29:01.48 [19380:5572:0515/162901.480:ERROR:browser_process_sub_thread.cc(217)] Waited 16 ms for network service
+5월 16, 2019 08:55:19.26 [5660:22180:0516/085519.263:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 16, 2019 08:55:19.29 [5660:15696:0516/085519.283:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 16, 2019 08:55:19.38 [5660:22420:0516/085519.387:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 16, 2019 08:55:21.30 [5660:22180:0516/085521.309:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 16, 2019 08:55:41.55 [5660:2920:0516/085541.551:ERROR:gcm_store_impl.cc(629)] LevelDB remove failed: NotFound: 
+5월 16, 2019 08:55:41.56 [5660:22180:0516/085541.551:ERROR:mcs_client.cc(526)] GCM Update failed!
+
+5월 16, 2019 11:24:57.22 NEW SESSION
+5월 16, 2019 11:24:57.22 [18008:19720:0516/112457.222:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 16, 2019 11:24:57.27 [18008:18748:0516/112457.272:ERROR:browser_process_sub_thread.cc(217)] Waited 29 ms for network service
+5월 16, 2019 11:37:22.35 [14028:23764:0516/113722.352:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 16, 2019 11:37:22.38 [14028:3956:0516/113722.386:ERROR:browser_process_sub_thread.cc(217)] Waited 15 ms for network service
+5월 16, 2019 12:38:29.15 [17340:19216:0516/123829.149:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 16, 2019 12:38:29.18 [17340:25528:0516/123829.185:ERROR:browser_process_sub_thread.cc(217)] Waited 10 ms for network service
+5월 16, 2019 13:38:32.76 [1416:19144:0516/133832.763:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 16, 2019 14:00:28.49 [1416:12780:0516/140028.496:ERROR:CONSOLE(1247)] "Uncaught TypeError: Cannot set property 'annotationAvailable' of undefined", source: chrome://print/pdf/pdf_viewer.js (1247)
+5월 16, 2019 15:39:26.11 [1416:19144:0516/153926.110:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 16, 2019 15:46:51.02 [1416:19144:0516/154651.018:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+
+5월 17, 2019 13:49:45.88 NEW SESSION
+5월 17, 2019 13:49:45.88 [9808:10576:0517/134945.871:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 17, 2019 14:35:33.82 [9808:14764:0517/143533.820:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 17, 2019 14:35:33.86 [9808:10576:0517/143533.861:ERROR:browser_process_sub_thread.cc(217)] Waited 14 ms for network service
+5월 17, 2019 16:06:16.68 [4976:21156:0517/160616.687:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 17, 2019 16:06:16.81 [4976:13436:0517/160616.815:ERROR:browser_process_sub_thread.cc(217)] Waited 52 ms for network service
+
+5월 18, 2019 14:10:38.30 NEW SESSION
+5월 18, 2019 14:10:38.30 [10700:17660:0518/141038.296:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 18, 2019 14:10:38.35 [10700:15580:0518/141038.357:ERROR:browser_process_sub_thread.cc(217)] Waited 15 ms for network service
+5월 18, 2019 18:01:27.78 [17416:19204:0518/180127.789:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:01:29.02 [17416:15616:0518/180129.019:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 18, 2019 18:01:49.51 [17416:19204:0518/180149.515:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:01:54.77 [17416:15616:0518/180154.775:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 18, 2019 18:02:35.91 [17416:19204:0518/180235.914:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:06:26.72 [17416:19204:0518/180626.728:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:06:53.30 [17416:19204:0518/180653.308:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:14:27.17 [17416:19204:0518/181427.177:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:14:56.67 [17416:19204:0518/181456.676:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 18, 2019 18:17:47.67 [17416:15616:0518/181747.678:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 18, 2019 18:17:47.72 [17416:19204:0518/181747.726:ERROR:browser_process_sub_thread.cc(217)] Waited 17 ms for network service
+5월 18, 2019 19:43:15.22 [6476:4584:0518/194315.221:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 19, 2019 18:28:47.48 [6476:4584:0519/182847.481:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 19, 2019 18:28:49.27 [6476:4584:0519/182849.272:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 18:28:49.30 [6476:4584:0519/182849.300:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 19, 2019 18:28:49.31 [6476:18876:0519/182849.301:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 19, 2019 18:28:49.32 [6476:9836:0519/182849.301:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 19, 2019 18:28:49.33 [6476:9836:0519/182849.304:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 19, 2019 18:29:09.78 [6476:18876:0519/182909.783:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 19, 2019 18:29:15.66 [6476:4584:0519/182915.661:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 18:29:16.49 [6476:4584:0519/182916.493:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 19, 2019 18:29:24.30 [6476:18876:0519/182924.305:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+5월 19, 2019 18:29:24.61 [6476:4584:0519/182924.618:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 19, 2019 18:29:34.30 [6476:9836:0519/182934.302:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 19, 2019 18:29:51.45 [6476:4584:0519/182951.459:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+5월 19, 2019 18:29:56.51 [6476:18876:0519/182956.516:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 19, 2019 18:30:12.72 [6476:4584:0519/183012.724:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 19, 2019 18:30:16.15 [6476:16368:0519/183016.150:ERROR:gcm_store_impl.cc(629)] LevelDB remove failed: NotFound: 
+5월 19, 2019 18:30:16.15 [6476:4584:0519/183016.150:ERROR:mcs_client.cc(526)] GCM Update failed!
+5월 19, 2019 19:20:48.17 [6476:4584:0519/192048.171:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 19, 2019 19:35:42.63 [6476:4584:0519/193542.633:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 19, 2019 19:35:44.65 [6476:4584:0519/193544.650:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 19, 2019 19:51:17.62 [6476:4584:0519/195117.623:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 19, 2019 19:52:03.28 [6476:4584:0519/195203.283:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 19, 2019 19:53:11.83 [6476:4584:0519/195311.835:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 19:53:33.07 [6476:4584:0519/195333.070:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 19:54:14.87 [6476:4584:0519/195414.870:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 19:56:00.23 [6476:4584:0519/195600.229:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 19:58:47.34 [6476:4584:0519/195847.341:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 20:29:23.21 [6476:4584:0519/202923.215:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 19, 2019 21:29:20.17 [6476:4584:0519/212920.178:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 19, 2019 22:23:53.01 [6476:4584:0519/222353.015:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:24:15.46 [6476:4584:0519/222415.462:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:31:32.66 [6476:4584:0519/223132.664:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:31:40.84 [6476:9836:0519/223140.844:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 19, 2019 22:31:59.62 [6476:4584:0519/223159.623:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:32:25.85 [6476:9836:0519/223225.852:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 19, 2019 22:32:49.25 [6476:4584:0519/223249.251:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:34:14.01 [6476:4584:0519/223414.010:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 19, 2019 22:34:17.86 [6476:9836:0519/223417.861:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 20, 2019 24:07:07.58 [6476:4584:0520/000707.586:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 20, 2019 08:59:29.38 [6476:4584:0520/085929.387:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 08:59:29.54 [6476:9836:0520/085929.389:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 20, 2019 08:59:29.62 [6476:18876:0520/085929.392:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 17:03:55.83 [6476:4584:0520/170355.835:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 20, 2019 18:11:46.90 [6476:4584:0520/181146.907:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 20, 2019 20:19:19.71 [6476:4584:0520/201919.620:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 20, 2019 20:19:21.94 [6476:4584:0520/201921.946:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:19:51.49 [6476:4584:0520/201951.491:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:20:35.59 [6476:4584:0520/202035.595:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:21:33.43 [6476:18876:0520/202133.430:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 20:21:55.92 [6476:18876:0520/202155.920:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 20:22:20.38 [6476:4584:0520/202220.387:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:22:43.82 [6476:18876:0520/202243.820:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 20:24:08.19 [6476:18876:0520/202408.196:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 20:25:55.13 [6476:4584:0520/202555.131:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:27:04.95 [6476:18876:0520/202704.951:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 20, 2019 20:33:26.35 [6476:4584:0520/203326.351:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 20, 2019 20:34:15.60 [6476:18876:0520/203415.600:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 21, 2019 01:46:44.26 [6476:4584:0521/014644.264:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 21, 2019 01:46:44.43 [6476:18876:0521/014644.436:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 21, 2019 09:20:04.75 [6476:4584:0521/092004.747:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 21, 2019 09:20:10.97 [6476:4584:0521/092006.043:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 21, 2019 09:20:11.16 [6476:18876:0521/092011.104:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+5월 21, 2019 09:20:11.20 [6476:9836:0521/092011.104:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 21, 2019 09:20:12.29 [6476:4584:0521/092012.296:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 21, 2019 09:20:15.60 [6476:9836:0521/092015.603:ERROR:get_updates_processor.cc(245)] PostClientToServerMessage() failed during GetUpdates
+5월 21, 2019 09:20:17.07 [6476:4584:0521/092017.077:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 21, 2019 09:21:22.90 [6476:18876:0521/092122.903:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 21, 2019 09:21:22.97 [6476:4584:0521/092122.972:ERROR:browser_process_sub_thread.cc(217)] Waited 9 ms for network service
+
+5월 21, 2019 10:21:44.21 NEW SESSION
+5월 21, 2019 10:21:44.22 [9248:23796:0521/102144.218:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 21, 2019 10:21:44.26 [9248:12716:0521/102144.260:ERROR:browser_process_sub_thread.cc(217)] Waited 17 ms for network service
+5월 21, 2019 10:22:01.72 [6400:9460:0521/102201.725:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 21, 2019 10:22:01.75 [6400:10356:0521/102201.757:ERROR:browser_process_sub_thread.cc(217)] Waited 14 ms for network service
+5월 21, 2019 10:25:32.83 [24912:24988:0521/102532.829:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 21, 2019 10:25:32.86 [24912:14204:0521/102532.862:ERROR:browser_process_sub_thread.cc(217)] Waited 10 ms for network service
+5월 21, 2019 11:22:43.94 [22724:936:0521/112243.942:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 21, 2019 11:47:25.93 [22724:936:0521/114725.929:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 21, 2019 11:47:44.99 [22724:936:0521/114744.992:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 21, 2019 11:47:48.47 [22724:936:0521/114748.470:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 21, 2019 11:55:13.57 [22724:936:0521/115513.570:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 21, 2019 13:43:32.35 [22724:936:0521/134332.354:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 21, 2019 13:43:32.68 [22724:936:0521/134332.681:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+5월 21, 2019 14:33:21.49 [22724:25544:0521/143321.494:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 21, 2019 14:33:21.61 [22724:936:0521/143321.616:ERROR:browser_process_sub_thread.cc(217)] Waited 50 ms for network service
+5월 23, 2019 18:06:31.88 [16868:7396:0523/180631.883:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 23, 2019 18:06:31.92 [16868:21248:0523/180631.923:ERROR:browser_process_sub_thread.cc(217)] Waited 20 ms for network service
+5월 23, 2019 18:58:41.45 [23608:9896:0523/185841.454:ERROR:socket_stream.cc(219)] Closing stream with result -2
+5월 23, 2019 18:58:43.66 [23608:9896:0523/185843.663:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 18:58:44.02 [23608:9896:0523/185844.027:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 18:59:35.74 [23608:9896:0523/185935.743:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:01:26.83 [23608:9896:0523/190126.834:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:04:45.61 [23608:9896:0523/190445.611:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:06:15.89 [23608:22104:0523/190615.895:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+5월 23, 2019 19:06:16.00 [23608:9896:0523/190616.006:ERROR:browser_process_sub_thread.cc(217)] Waited 39 ms for network service
+5월 23, 2019 19:07:01.85 [11000:21192:0523/190701.851:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:07:31.58 [11000:21192:0523/190731.586:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:07:35.40 [11000:27480:0523/190735.407:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+5월 23, 2019 19:08:14.91 [11000:21192:0523/190814.919:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 19:11:07.09 [11000:21192:0523/191107.086:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 22:07:14.44 [11000:21192:0523/220714.449:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+5월 23, 2019 22:07:14.51 [11000:27480:0523/220714.461:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+7월 18, 2019 12:09:25.43 NEW SESSION
+7월 18, 2019 12:09:25.43 [2340:3872:0718/120925.329:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 18, 2019 12:09:25.45 [2340:3872:0718/120925.379:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+7월 18, 2019 12:09:29.52 [2340:9980:0718/120929.521:ERROR:http_bridge.cc(110)] NOT IMPLEMENTED
+7월 18, 2019 12:09:29.52 [2340:9980:0718/120929.525:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Request canceled.
+7월 18, 2019 12:09:29.57 [2340:3872:0718/120929.570:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+7월 18, 2019 12:10:31.17 [13224:9692:0718/121031.173:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 18, 2019 12:10:31.22 [13224:9692:0718/121031.221:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+7월 18, 2019 12:10:38.87 [13224:13156:0718/121038.871:ERROR:http_bridge.cc(110)] NOT IMPLEMENTED
+7월 18, 2019 12:10:38.93 [13224:9692:0718/121038.930:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+
+7월 19, 2019 10:46:48.14 NEW SESSION
+7월 19, 2019 10:46:48.14 [18348:12280:0719/104648.142:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 10:47:11.62 [18348:12280:0719/104711.625:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 10:47:22.14 [18348:1256:0719/104722.139:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+7월 19, 2019 10:48:00.15 [18348:12280:0719/104800.153:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 10:48:33.98 [18348:12280:0719/104833.987:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 10:52:13.39 [18348:12280:0719/105213.391:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:03:07.68 [18348:12280:0719/140307.681:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:03:07.69 [18348:1256:0719/140307.685:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:03:37.31 [18348:1256:0719/140337.314:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:03:40.58 [18348:1256:0719/140340.583:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+7월 19, 2019 14:04:27.01 [18348:1256:0719/140427.015:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:06:14.14 [18348:1256:0719/140614.146:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:10:06.02 [18348:1256:0719/141006.029:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:13:04.08 [18348:12280:0719/141304.084:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:25:01.62 [18348:12280:0719/142501.625:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:25:01.64 [18348:1256:0719/142501.630:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:35:01.62 [18348:12280:0719/143501.627:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:35:01.63 [18348:1256:0719/143501.632:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:45:01.62 [18348:12280:0719/144501.628:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:45:01.63 [18348:1256:0719/144501.635:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 14:55:01.64 [18348:12280:0719/145501.641:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 14:55:01.64 [18348:1256:0719/145501.641:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 19, 2019 15:05:01.64 [18348:12280:0719/150501.644:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 19, 2019 15:05:01.64 [18348:1256:0719/150501.644:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+7월 19, 2019 18:24:17.84 NEW SESSION
+7월 19, 2019 18:24:17.84 [15036:3460:0719/182416.615:ERROR:socket_stream.cc(219)] Closing stream with result -2
+7월 19, 2019 18:24:17.87 [15036:3460:0719/182417.871:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+7월 19, 2019 18:24:17.91 [15036:12848:0719/182417.912:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 23, 2019 09:08:28.66 [15036:3460:0723/090828.666:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:08:28.69 [15036:12848:0723/090828.698:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 23, 2019 09:08:28.71 [15036:3460:0723/090828.698:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+7월 23, 2019 09:08:28.74 [15036:6772:0723/090828.706:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+7월 23, 2019 09:08:50.99 [15036:3460:0723/090850.990:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+7월 23, 2019 09:09:04.27 [15036:12848:0723/090904.275:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+7월 23, 2019 09:09:13.71 [15036:6772:0723/090913.712:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+7월 23, 2019 09:09:25.89 [15036:12848:0723/090925.899:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 23, 2019 09:09:26.41 [15036:3460:0723/090926.416:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:09:49.71 [15036:3460:0723/090949.713:ERROR:checkin_request.cc(219)] Failed to get checkin response. Fetcher failed. Retrying.
+7월 23, 2019 09:10:49.22 [15036:3460:0723/091049.221:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+7월 23, 2019 09:10:49.22 [15036:6772:0723/091049.221:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+7월 23, 2019 09:10:52.45 [15036:3460:0723/091052.458:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -21
+7월 23, 2019 09:10:52.46 [15036:6772:0723/091052.462:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+7월 23, 2019 09:16:01.16 [15036:3460:0723/091601.167:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:16:23.94 [15036:3460:0723/091623.940:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:17:05.09 [15036:3460:0723/091705.097:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:25:11.06 [15036:3460:0723/092511.062:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:25:31.33 [15036:3460:0723/092531.335:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:31:05.61 [15036:3460:0723/093105.615:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:31:29.32 [15036:3460:0723/093129.325:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:34:28.44 [15036:3460:0723/093428.447:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 09:34:58.04 [15036:3460:0723/093458.039:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:29:50.17 [15036:3460:0723/102950.174:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:30:15.08 [15036:3460:0723/103015.088:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:30:56.26 [15036:3460:0723/103056.264:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:31:12.76 [15036:3460:0723/103112.769:ERROR:socket_stream.cc(219)] Closing stream with result -2
+7월 23, 2019 10:31:15.03 [15036:3460:0723/103115.036:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:37:46.65 [15036:3460:0723/103746.649:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:38:10.65 [15036:3460:0723/103810.656:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:38:55.98 [15036:3460:0723/103855.988:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:43:14.85 [15036:3460:0723/104314.858:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:43:41.76 [15036:3460:0723/104341.768:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:44:22.46 [15036:3460:0723/104422.461:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:44:36.95 [15036:3460:0723/104436.953:ERROR:socket_stream.cc(219)] Closing stream with result -2
+7월 23, 2019 10:44:39.15 [15036:3460:0723/104439.159:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:45:27.94 [15036:3460:0723/104527.944:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:45:51.43 [15036:3460:0723/104551.434:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:46:37.83 [15036:3460:0723/104637.829:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:47:47.56 [15036:3460:0723/104747.560:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:48:16.72 [15036:3460:0723/104816.721:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:54:30.66 [15036:3460:0723/105430.667:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:54:50.92 [15036:3460:0723/105450.923:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+7월 23, 2019 10:55:42.25 [15036:3460:0723/105542.254:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106

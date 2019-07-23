@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_ITEM">
+	<resultMap type="com.spring.biz.vo.ItemVO" id="item">
+		<result column="ITEM_CODE" 				property="itemCode"/>
+		<result column="CATEGORY_03_CODE" 		property="category03Code"/>
+		<result column="ITEM_NAME" 				property="itemName"/>
+		<result column="ITEM_PRICE" 			property="itemPrice"/>
+		<result column="ITEM_INVENTORY" 		property="itemInventory"/>
+		<result column="ITEM_SALES" 			property="itemSales"/>
+		<result column="ITEM_IMAGE" 			property="itemImage"/>
+		<result column="ITEM_CONTENT" 			property="itemContent"/>
+		<result column="ITEM_DISCOUNT" 			property="itemDiscount"/>
+		<result column="ON_SALE" 				property="onSale"/>
+		<result column="OPTIONS_CODE" 			property="optionsCode"/>
+		<result column="ITEM_THUMBNAIL" 		property="itemThumbnail"/>
+		<result column="NVL_ITEM_CODE" 			property="nvlItemCode"/>
+		<result column="NVL_OPTIONS_CODE" 		property="nvlOptionsCode"/>
+		<result column="CATEGORY_02_CODE" 		property="category02Code"/>
+		<result column="CATEGORY_CODE" 			property="categoryCode"/>
+		<result column="ITEM_VIEW" 				property="itemView"/>
+		<result column="TOTAL_ROW_NUM" 			property="totalRowNum"/>
+		<result column="ROW_NUM" 				property="rowNum"/>
+	</resultMap>
+	
+<!-- 	아이템 리스트 출력 -->
+	<select id="selectItemList" resultMap="item">
+		SELECT 
+				ROW_NUM
+				<if test="categoryName == 'New' || categoryName == null">
+					,TOTAL_ROW_NUM
+				</if>
+				,ITEM_CODE
+				, CATEGORY_CODE
+           		, CATEGORY_02_CODE
+				, CATEGORY_03_CODE
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_INVENTORY
+				, ITEM_SALES
+				, ITEM_IMAGE
+				, ITEM_CONTENT
+				, ITEM_DISCOUNT
+				, ON_SALE
+				, OPTIONS_CODE
+				, ITEM_THUMBNAIL
+				, ITEM_VIEW
+		FROM 
+			<choose>
+				<when test="categoryName == 'Best'">
+					(SELECT 
+						ROWNUM as ROW_NUM
+						, ITEM_CODE 
+						, CATEGORY_CODE
+            			, CATEGORY_02_CODE
+            			, CATEGORY_03_CODE
+						, ITEM_NAME 
+						, ITEM_PRICE 
+						, ITEM_INVENTORY 
+						, ITEM_SALES 
+						, ITEM_IMAGE 
+						, ITEM_CONTENT 
+						, ITEM_DISCOUNT 
+						, ON_SALE 
+						, OPTIONS_CODE 
+						, ITEM_THUMBNAIL 
+						, ITEM_VIEW 
+						, ITEM_DATE
+					FROM SHOPPING_ITEM 
+					ORDER BY ITEM_VIEW DESC , ITEM_CODE ASC)
+				</when>
+				<when test="categoryName == 'New' || categoryName == null">
+					(SELECT 
+						ROWNUM as ROW_NUM
+						, (
+							SELECT COUNT(ITEM_CODE)
+                       		FROM SHOPPING_ITEM
+                       		WHERE 1=1
+                       		<choose>
+                       			<when test="categoryCode != 0">
+									AND CATEGORY_CODE = #{categoryCode}
+								</when>
+								<when test="category02Code != 0">
+									AND CATEGORY_02_CODE = #{category02Code}
+								</when>
+								<when test="category03Code != 0">
+									AND CATEGORY_03_CODE = #{category03Code}
+								</when>
+								<when test="searchKeyword != null ">
+									AND ITEM_NAME LIKE '%'||#{searchKeyword}||'%'
+								</when>
+                       		</choose>
+                        	) as TOTAL_ROW_NUM
+						, ITEM_CODE 
+						, CATEGORY_CODE
+            			, CATEGORY_02_CODE
+						, CATEGORY_03_CODE 
+						, ITEM_NAME 
+						, ITEM_PRICE 
+						, ITEM_INVENTORY 
+						, ITEM_SALES 
+						, ITEM_IMAGE 
+						, ITEM_CONTENT 
+						, ITEM_DISCOUNT 
+						, ON_SALE 
+						, OPTIONS_CODE 
+						, ITEM_THUMBNAIL 
+						, ITEM_VIEW 
+						, ITEM_DATE
+					FROM SHOPPING_ITEM 
+					ORDER BY ITEM_DATE DESC , ITEM_CODE ASC) A
+				</when>
+				<otherwise>
+				</otherwise>
+			</choose>
+		WHERE ON_SALE = 'Y'
+		<choose>
+			<when test="categoryCode != 0">
+				AND CATEGORY_CODE = #{categoryCode}
+				AND
+	        	ROW_NUM &gt; (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_CODE = #{categoryCode}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_CODE = #{categoryCode})  + (#{pageIndex} -1) * 10
+	        	AND
+	        	ROW_NUM &lt;= (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_CODE = #{categoryCode}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_CODE = #{categoryCode})  + (#{pageIndex}  + 1) * 10
+			</when>
+			<when test="category02Code != 0">
+				AND CATEGORY_02_CODE = #{category02Code}
+				AND
+	        	ROW_NUM &gt; (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_02_CODE = #{category02Code}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_02_CODE = #{category02Code}) + (#{pageIndex} -1) * 10
+	        	AND
+	        	ROW_NUM &lt; (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_02_CODE = #{category02Code}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_02_CODE = #{category02Code}) + (#{pageIndex}  + 1) * 10
+			</when>
+			<when test="category03Code != 0">
+				AND CATEGORY_03_CODE = #{category03Code}
+				AND
+	        	ROW_NUM &gt; (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_03_CODE = #{category03Code}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_03_CODE = #{category03Code}) + (#{pageIndex} -1) * 10
+	        	AND
+	        	ROW_NUM &lt;= (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_03_CODE = #{category03Code}) - (SELECT COUNT(ITEM_CODE) FROM SHOPPING_ITEM WHERE CATEGORY_03_CODE = #{category03Code}) + (#{pageIndex} + 1) * 10
+			</when>
+			<when test="categoryName == 'New' || categoryName == 'Best'">
+				AND ROW_NUM &lt;= 8
+			</when>
+			<when test="searchKeyword != null ">
+				AND ITEM_NAME LIKE '%'||#{searchKeyword}||'%'
+			</when>
+			<otherwise>
+			</otherwise>
+		</choose>
+	</select>
+	
+<!-- 	아이템 상세보기 -->
+	<select id="selectItemInfo" resultMap="item">
+		SELECT 
+				ITEM_CODE
+				, CATEGORY_03_CODE
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_INVENTORY
+				, ITEM_SALES
+				, ITEM_IMAGE
+				, ITEM_CONTENT
+				, ITEM_DISCOUNT
+				, OPTIONS_CODE
+				, ITEM_THUMBNAIL
+				, ITEM_VIEW
+		FROM SHOPPING_ITEM
+		WHERE ITEM_CODE = #{itemCode}
+	</select>
+	
+<!-- 	아이템 인서트 NVL -->
+	<select id="selectItemNVL" resultMap="item">
+		SELECT  NVL_ITEM_CODE , NVL_OPTIONS_CODE
+		FROM (SELECT 
+					NVL(MAX(ITEM_CODE) + 1, 1) as NVL_ITEM_CODE 
+					,NVL(MAX(OPTIONS_CODE) + 1, 1) as NVL_OPTIONS_CODE 
+					FROM SHOPPING_ITEM)
+	</select>
+	
+<!-- 	아이템 인서트 -->
+	<insert id="insertItem">
+	INSERT INTO SHOPPING_ITEM
+		(
+			ITEM_CODE
+				, CATEGORY_03_CODE
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_INVENTORY
+				, ITEM_IMAGE
+				, ITEM_CONTENT
+				, ITEM_DISCOUNT
+				, ITEM_THUMBNAIL
+				, CATEGORY_02_CODE
+				, CATEGORY_CODE
+				<if test="options01 != null">
+				, OPTIONS_CODE
+				</if>
+		) VALUES (
+				#{itemCode}
+				, #{category03Code}
+				, #{itemName}
+				, #{itemPrice}
+				, #{itemInventory}
+				, #{itemImage}
+				, #{itemContent}
+				, #{itemDiscount}
+				, #{itemThumbnail}
+				, #{category02Code}
+				, #{categoryCode}
+				<if test="options01 != null">
+				, #{optionsCode}
+				</if>
+		)
+	</insert>
+	
+<!-- 	아이템 코드 NVL -->
+	<select id="boogunItemcodeNVL" resultType="int" >
+		SELECT NVL(MAX(ITEM_CODE) + 1, 1) 
+		FROM SHOPPING_ITEM
+	</select>
+	
+<!-- 	옵션 코드 NVL -->
+	<select id="boogunOptionscodeNVL" resultType="int" >
+		SELECT NVL(MAX(OPTIONS_CODE) + 1, 1) 
+		FROM SHOPPING_ITEM
+	</select>
+	
+<!-- 	아이템 조회수 업데이트 -->
+	<update id="updateView">
+		UPDATE SHOPPING_ITEM 
+		SET
+			ITEM_VIEW = ITEM_VIEW + 1
+		WHERE ITEM_CODE = #{itemCode}
+	</update>
+	
+<!-- 	아이템 비활성화  -->
+	<update id="deleteItem">
+		UPDATE SHOPPING_ITEM 
+		SET
+			ON_SALE = 'N'
+		WHERE ITEM_CODE = #{itemCode}
+	</update>
+	
+<!-- 	아이템 인포 업데이트 -->
+	<update id="itemUpdate">
+		UPDATE SHOPPING_ITEM 
+		SET
+			ITEM_PRICE = #{itemPrice}
+			, ITEM_INVENTORY = #{itemInventory}
+			, ITEM_DISCOUNT = #{itemDiscount}
+		WHERE ITEM_CODE = #{itemCode}
+	</update>
+	
+	
+</mapper>

@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML>
+<HTML lang="KO">
+<head>
+<title>우측 고정배너 </title>
+<style type="text/css">
+#aside {position:absolute;  position:fixed;top:100px; right:0; z-index:3; width:100px;border:2px solid ;} 
+</style>
+</head>
+<body>
+<div id="aside">오른쪽고정배너</div>
+
+</body>
+</html>

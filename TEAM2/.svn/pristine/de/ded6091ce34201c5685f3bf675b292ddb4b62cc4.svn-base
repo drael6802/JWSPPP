@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_ITEM_CATEGORY">
+	<!--category01  -->
+	<resultMap type="com.spring.biz.vo.CategoryVO" id="category">
+		<result column="CATEGORY_CODE" 				property="categoryCode"/>
+		<result column="CATEGORY_NAME" 				property="categoryName"/>
+	</resultMap>
+	<!--category02  -->
+	<resultMap type="com.spring.biz.vo.Category02VO" id="category02">
+		<result column="CATEGORY_02_CODE" 				property="category02Code"/>
+		<result column="CATEGORY_02_NAME" 				property="category02Name"/>
+		<result column="CATEGORY_CODE" 					property="categoryCode"/>
+	</resultMap>
+	<!--category03  -->
+	<resultMap type="com.spring.biz.vo.Category03VO" id="category03">
+		<result column="CATEGORY_03_CODE" 				property="category03Code"/>
+		<result column="CATEGORY_03_NAME" 				property="category03Name"/>
+		<result column="CATEGORY_02_CODE" 				property="category02Code"/>
+		<result column="CATEGORY_02_NAME" 				property="category02Name"/>
+		<result column="CATEGORY_CODE" 					property="categoryCode"/>	
+		<result column="CATEGORY_NAME" 					property="categoryName"/>
+	</resultMap>
+	
+	<!--카테고리 01 셀렉트  -->
+	<select id="selectCategoryList" resultMap="category">
+		SELECT 
+				CATEGORY_CODE
+				, CATEGORY_NAME
+		FROM SHOPPING_ITEM_CATEGORY
+	</select>
+	
+		<!--카테고리 02 셀렉트  -->
+	<select id="selectCategory02List" resultMap="category02">
+		SELECT 
+				CATEGORY_02_CODE
+				, CATEGORY_02_NAME
+		FROM SHOPPING_ITEM_CATEGORY_02
+		WHERE CATEGORY_CODE = #{categoryCode}
+	</select>
+	
+		<!--카테고리 03 셀렉트  -->
+	<select id="selectCategory03List" resultMap="category03">
+		SELECT 
+				CATEGORY_03_CODE
+				, CATEGORY_03_NAME
+		FROM SHOPPING_ITEM_CATEGORY_03
+		WHERE CATEGORY_02_CODE = #{category02Code }
+	</select>
+		<!--모든 카테고리 셀렉트  -->
+	<select id="selectCategoryAllList" resultMap="category03" resultType="int">
+		SELECT 
+				A.CATEGORY_CODE
+				, A.CATEGORY_NAME 
+				, B.CATEGORY_02_CODE
+				, B.CATEGORY_02_NAME 
+				, C.CATEGORY_03_CODE
+				, C.CATEGORY_03_NAME
+		FROM SHOPPING_ITEM_CATEGORY A 
+           		INNER JOIN SHOPPING_ITEM_CATEGORY_02 B ON A.CATEGORY_CODE = B.CATEGORY_CODE 
+            	INNER JOIN SHOPPING_ITEM_CATEGORY_03 C ON B.CATEGORY_02_CODE = C.CATEGORY_02_CODE  
+				<if test="categoryState == 'itemInfo'">
+					WHERE  CATEGORY_03_CODE = #{category03Code}
+				</if>
+		
+	</select>
+
+</mapper>

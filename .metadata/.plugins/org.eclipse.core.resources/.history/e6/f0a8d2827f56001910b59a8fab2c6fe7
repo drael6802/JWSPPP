@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="color: #000000;">
+	* 쇼핑몰 메인 *
+	${sessionScope.userInfo.userId }
+	
+<hr>
+<!--신상품  -->
+<jsp:include page="item_list.jsp"></jsp:include>
+<%-- <hr>
+<!--베스트 상품  -->
+<jsp:include page="item_list.jsp"></jsp:include>
+<hr>
+<!--주력 팔것  -->
+<jsp:include page="item_list.jsp"></jsp:include> --%>
+
+</div>
+</body>
+</html>

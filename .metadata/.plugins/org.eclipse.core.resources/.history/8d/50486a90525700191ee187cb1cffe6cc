@@ -1,0 +1,36 @@
+package com.spring.biz;
+
+import java.util.List;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring.biz.vo.Category02VO;
+import com.spring.biz.vo.Category03VO;
+import com.spring.biz.vo.CategoryVO;
+
+@Service("CategoryService")
+public class Category03ServiceImp implements CategoryService{
+	@Autowired
+	private SqlSessionTemplate sqlSession;
+	
+	@Override
+	public List<CategoryVO> selectCategoryList(CategoryVO vo) {
+		
+		return null;
+	}
+
+	@Override
+	public List<CategoryVO> selectCategory02List(Category02VO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CategoryVO> selectCategory03List(Category03VO vo) {
+		// TODO Auto-generated method stub
+		return sqlSession.selectList("selectCategory03List", vo);
+	}
+	
+}

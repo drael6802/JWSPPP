@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 폼</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css" >
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+
+<div align="center">
+	<form action="loginCheck.do" method="post" >
+		<div align="left">
+			<input type="text" size="7px" name="id" id="id" required style="height:25px;"/><br>
+			<input type="password" size="7px" name="password" id="password" required style="height:25px;" />
+			<input type="submit" value="로그인" style="size: auto;" />
+		</div>
+		<div>
+			회원가입 , ID.PASS 변경 , 고객센터 , 네이버 로그인
+		</div>
+	</form>
+</div>
+</body>
+</html>

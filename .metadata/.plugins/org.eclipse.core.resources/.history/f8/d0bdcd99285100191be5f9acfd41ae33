@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>스크롤하면 상단 영역 고정</title>
+		
+		<!-- 리셋 (이 CSS는 개인적인 자산임으로 사용시 안의 기입된 내용은 변경하지 말아야 합니다.) -->
+		<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/custom/blog/172/1725517/skin/images/kcm_reset.css" />
+
+		<!-- 스타일 -->
+		<style type="text/css">
+			.wrap{}
+			.wrap div{width:100%; text-align:center; font-size:20px; font-weight:700; color:#fff;}
+			
+			.top_bar_fix{position:fixed; top:0; left:0; width:100%;}
+			.pd_top_80{padding-top:80px;}
+
+			.wrap .top_bn_zone{height:100px; background:#777; line-height:100px;}
+			.wrap .top_fix_zone{height:80px; background:#d63232; line-height:80px;}
+			.wrap .top_con_zone{height:1500px; background:#ededed; color:#888; text-align:center; font-size:70px;}
+		</style>
+		
+		<!-- 제이쿼리 -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<!-- 스크립트 -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				var topBar = $("#topBar").offset();
+
+				$(window).scroll(function(){
+					
+					var docScrollY = $(document).scrollTop()
+					var barThis = $("#topBar")
+					var fixNext = $("#fixNextTag")
+
+					if( docScrollY > topBar.top ) {
+						barThis.addClass("top_bar_fix");
+						fixNext.addClass("pd_top_80");
+					}else{
+						barThis.removeClass("top_bar_fix");
+						fixNext.removeClass("pd_top_80");
+					}
+
+				});
+
+			})
+		</script>
+	</head>
+	<body>
+		
+		<div class="wrap">
+			
+			<div class="top_bn_zone">
+				상단 배녀 영역
+			</div>
+
+			<div class="top_fix_zone" id="topBar">
+				상단 고정 영역
+			</div>
+
+			<div class="top_con_zone" id="fixNextTag">
+				하단 contents 영역
+			</div>
+
+		</div>
+
+	</body>
+</html>

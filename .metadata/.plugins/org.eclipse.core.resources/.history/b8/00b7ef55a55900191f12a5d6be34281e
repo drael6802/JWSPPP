@@ -1,0 +1,152 @@
+package com.spring.biz.vo;
+
+import org.springframework.web.multipart.MultipartFile;
+
+// 아이템 테이블
+public class ItemVO {
+	
+	// 아이템_코드
+	private int itemCode;
+	// 카테고리_코드
+	private int category03Code;
+	// 아이템_이름
+	private String itemName;
+	// 아이템_가격
+	private int itemPrice;
+	// 재고수량
+	private int itemInventory;
+	// 판매수량
+	private int itemSales;
+	// 아이템_설명
+	private String itemContent;
+	// 아이템_할인
+	private int itemDiscount;
+	// 판매_여부
+	private String onSale;
+	// 옵션_코드
+	private int optionsCode;
+	// 아이템 썸네일
+	private String itemThumbnail;
+	// 아이템_이미지
+	private String itemImage;
+	// 아이템_파일_이미지
+	private MultipartFile itemImageFile;
+	// 아이템_파일_썸네일
+	private MultipartFile itemThumbnailFile;
+	
+	//아이템 옵션
+	private String options01;
+	
+	
+	public int getItemCode() {
+		return itemCode;
+	}
+	public void setItemCode(int itemCode) {
+		this.itemCode = itemCode;
+	}
+	public int getCategory03Code() {
+		return category03Code;
+	}
+	public void setCategory03Code(int category03Code) {
+		this.category03Code = category03Code;
+	}
+	public String getItemName() {
+		return itemName;
+	}
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+	public int getItemPrice() {
+		return itemPrice;
+	}
+	public void setItemPrice(int itemPrice) {
+		this.itemPrice = itemPrice;
+	}
+	public int getItemInventory() {
+		return itemInventory;
+	}
+	public void setItemInventory(int itemInventory) {
+		this.itemInventory = itemInventory;
+	}
+	public int getItemSales() {
+		return itemSales;
+	}
+	public void setItemSales(int itemSales) {
+		this.itemSales = itemSales;
+	}
+	public String getItemContent() {
+		return itemContent;
+	}
+	public void setItemContent(String itemContent) {
+		this.itemContent = itemContent;
+	}
+	public int getItemDiscount() {
+		return itemDiscount;
+	}
+	public void setItemDiscount(int itemDiscount) {
+		this.itemDiscount = itemDiscount;
+	}
+	public String getOnSale() {
+		return onSale;
+	}
+	public void setOnSale(String onSale) {
+		this.onSale = onSale;
+	}
+	public int getOptionsCode() {
+		return optionsCode;
+	}
+	public void setOptionsCode(int optionsCode) {
+		this.optionsCode = optionsCode;
+	}
+	public String getItemThumbnail() {
+		return itemThumbnail;
+	}
+	public void setItemThumbnail(String itemThumbnail) {
+		this.itemThumbnail = itemThumbnail;
+	}
+	public String getItemImage() {
+		return itemImage;
+	}
+	public void setItemImage(String itemImage) {
+		this.itemImage = itemImage;
+	}
+	public MultipartFile getItemImageFile() {
+		return itemImageFile;
+	}
+	public void setItemImageFile(MultipartFile itemImageFile) {
+		this.itemImageFile = itemImageFile;
+	}
+	public MultipartFile getItemThumbnailFile() {
+		return itemThumbnailFile;
+	}
+	public void setItemThumbnailFile(MultipartFile itemThumbnailFile) {
+		this.itemThumbnailFile = itemThumbnailFile;
+	}
+	
+	public String getOptions01() {
+		return options01;
+	}
+	public void setOptions01(String options01) {
+		this.options01 = options01;
+	}
+	
+	public OptionsVO getOptionsVO() {
+		return optionsVO;
+	}
+	public void setOptionsVO(OptionsVO optionsVO) {
+		this.optionsVO = optionsVO;
+	}
+	@Override
+	public String toString() {
+		return "ItemVO [itemCode=" + itemCode + ", category03Code=" + category03Code + ", itemName=" + itemName
+				+ ", itemPrice=" + itemPrice + ", itemInventory=" + itemInventory + ", itemSales=" + itemSales
+				+ ", itemContent=" + itemContent + ", itemDiscount=" + itemDiscount + ", onSale=" + onSale
+				+ ", optionsCode=" + optionsCode + ", itemThumbnail=" + itemThumbnail + ", itemImage=" + itemImage
+				+ ", itemImageFile=" + itemImageFile + ", itemThumbnailFile=" + itemThumbnailFile + "]";
+	}
+	
+	
+
+	//
+
+}

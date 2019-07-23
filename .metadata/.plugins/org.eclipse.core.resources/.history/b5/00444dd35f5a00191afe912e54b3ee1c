@@ -1,0 +1,40 @@
+package com.spring.view;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.biz.TestService;
+import com.spring.biz.vo.TestVO;
+
+@Controller
+public class TestController {
+	@Resource(name = "boardService")
+	TestService testService;
+	
+	/*
+	@RequestMapping(value = "/test")
+	public String test() {
+		System.out.println("==========>test");
+		model.addAttribute(viewPage, "test.jsp");
+		return viewTemplate;
+	}
+	*/
+	
+	//
+	@RequestMapping(value = "/test.do")
+	public String test(Model model) {
+		System.out.println("==========>test");
+		return test.jsp;
+	}
+	
+	
+
+}

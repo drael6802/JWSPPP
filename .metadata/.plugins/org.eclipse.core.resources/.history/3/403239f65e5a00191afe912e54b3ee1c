@@ -1,0 +1,37 @@
+package com.spring.view;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.biz.BoardService;
+import com.spring.biz.vo.TestVO;
+
+@Controller
+public class TestController {
+	@Resource(name = "boardService")
+	BoardService boardService;
+	
+	
+	
+	// 검색 목록 조건 설정
+	@ModelAttribute("conditionMap")
+	public Map<String, String> searchConditionMap(TestVO boardVO) {
+		Map<String, String> conditionMap = new HashMap<String, String>();
+		System.out.println("ModelAttribute ===>Map");
+		
+		conditionMap.put("내용", "CONTENT");
+		conditionMap.put("제목", "TITLE");
+		conditionMap.put("날짜", "DATE");
+		return conditionMap;
+	}
+	
+
+}

@@ -1,0 +1,146 @@
+package com.spring.biz.vo;
+
+public class ItemVO {
+
+	// 아이템 테이블 
+	public class ShoppingItem {
+
+	    // 아이템_코드 
+	    private int itemCode;
+
+	    // 카테고리_코드 
+	    private int categoryCode;
+
+	    // 아이템_이름 
+	    private String itemName;
+
+	    // 아이템_가격 
+	    private int itemPrice;
+
+	    // 재고수량 
+	    private int itemInventory;
+
+	    // 판매수량 
+	    private int itemSales;
+
+	    // 아이템_이미지 
+	    private String itemImage;
+
+	    // 아이템_설명 
+	    private String itemContent;
+
+	    // 아이템_할인 
+	    private int itemDiscount;
+
+	    // 판매_여부 
+	    private String onSale;
+
+	    // 옵션_코드 
+	    private int optionsCode;
+
+	    public Integer getItemCode() {
+	        return itemCode;
+	    }
+
+	    public void setItemCode(Integer itemCode) {
+	        this.itemCode = itemCode;
+	    }
+
+	    public Integer getCategoryCode() {
+	        return categoryCode;
+	    }
+
+	    public void setCategoryCode(Integer categoryCode) {
+	        this.categoryCode = categoryCode;
+	    }
+
+	    public String getItemName() {
+	        return itemName;
+	    }
+
+	    public void setItemName(String itemName) {
+	        this.itemName = itemName;
+	    }
+
+	    public Integer getItemPrice() {
+	        return itemPrice;
+	    }
+
+	    public void setItemPrice(Integer itemPrice) {
+	        this.itemPrice = itemPrice;
+	    }
+
+	    public Integer getItemInventory() {
+	        return itemInventory;
+	    }
+
+	    public void setItemInventory(Integer itemInventory) {
+	        this.itemInventory = itemInventory;
+	    }
+
+	    public Integer getItemSales() {
+	        return itemSales;
+	    }
+
+	    public void setItemSales(Integer itemSales) {
+	        this.itemSales = itemSales;
+	    }
+
+	    public String getItemImage() {
+	        return itemImage;
+	    }
+
+	    public void setItemImage(String itemImage) {
+	        this.itemImage = itemImage;
+	    }
+
+	    public String getItemContent() {
+	        return itemContent;
+	    }
+
+	    public void setItemContent(String itemContent) {
+	        this.itemContent = itemContent;
+	    }
+
+	    public Integer getItemDiscount() {
+	        return itemDiscount;
+	    }
+
+	    public void setItemDiscount(Integer itemDiscount) {
+	        this.itemDiscount = itemDiscount;
+	    }
+
+	    public String getOnSale() {
+	        return onSale;
+	    }
+
+	    public void setOnSale(String onSale) {
+	        this.onSale = onSale;
+	    }
+
+	    public Integer getOptionsCode() {
+	        return optionsCode;
+	    }
+
+	    public void setOptionsCode(Integer optionsCode) {
+	        this.optionsCode = optionsCode;
+	    }
+
+	    // ShoppingItem 모델 복사
+	    public void CopyData(ShoppingItem param)
+	    {
+	        this.itemCode = param.getItemCode();
+	        this.categoryCode = param.getCategoryCode();
+	        this.itemName = param.getItemName();
+	        this.itemPrice = param.getItemPrice();
+	        this.itemInventory = param.getItemInventory();
+	        this.itemSales = param.getItemSales();
+	        this.itemImage = param.getItemImage();
+	        this.itemContent = param.getItemContent();
+	        this.itemDiscount = param.getItemDiscount();
+	        this.onSale = param.getOnSale();
+	        this.optionsCode = param.getOptionsCode();
+	    }
+	}	
+	
+}

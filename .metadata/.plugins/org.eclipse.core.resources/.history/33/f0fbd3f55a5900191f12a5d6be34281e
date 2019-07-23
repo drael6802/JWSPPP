@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SHOPPING_ITEM">
+	<resultMap type="com.spring.biz.vo.ItemVO" id="item">
+		<result column="ITEM_CODE" 				property="itemCode"/>
+		<result column="CATEGORY_03_CODE" 		property="category03Code"/>
+		<result column="ITEM_NAME" 				property="itemName"/>
+		<result column="ITEM_PRICE" 			property="itemPrice"/>
+		<result column="ITEM_INVENTORY" 		property="itemInventory"/>
+		<result column="ITEM_SALES" 			property="itemSales"/>
+		<result column="ITEM_IMAGE" 			property="itemImage"/>
+		<result column="ITEM_CONTENT" 			property="itemContent"/>
+		<result column="ITEM_DISCOUNT" 			property="itemDiscount"/>
+		<result column="ON_SALE" 				property="onSale"/>
+		<result column="OPTIONS_CODE" 			property="optionsCode"/>
+		<result column="ITEM_THUMBNAIL" 		property="itemThumbnail"/>
+		<!--  -->
+		<result column="OPTIONS_CODE" 			property="optionsCode"/>
+		<result column="OPTIONS_01" 			property="optionsVO.options01"/>
+		<result column="OPTIONS_02" 			property="optionsVO.options02"/>
+		<result column="OPTIONS_03" 			property="optionsVO.options03"/>
+		<result column="OPTIONS_04" 			property="optionsVO.options04"/>
+		<result column="OPTIONS_05" 			property="optionsVO.options05"/>
+	</resultMap>
+	
+	<resultMap type="com.spring.biz.vo.OptionsVO" 	id="options">
+		<result column="OPTIONS_CODE" 			property="categoryCode"/>
+		<result column="ITEM_CODE" 				property="itemCode"/>
+		<result column="OPTIONS_01" 			property="options01"/>
+		<result column="OPTIONS_02" 			property="options02"/>
+		<result column="OPTIONS_03" 			property="options03"/>
+		<result column="OPTIONS_04" 			property="options04"/>
+		<result column="OPTIONS_05" 			property="options05"/>
+	</resultMap>
+	
+	<select id="selectItemList" resultMap="item">
+		SELECT 
+				ITEM_CODE
+				, CATEGORY_CODE
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_INVENTORY
+				, ITEM_SALES
+				, ITEM_IMAGE
+				, ITEM_CONTENT
+				, ITEM_DISCOUNT
+				, ON_SALE
+				, OPTIONS_CODE
+				, ITEM_THUMBNAIL
+		FROM SHOPPING_ITEM
+	</select>
+	
+	<insert id="insertItem">
+	INSERT INTO SHOPPING_ITEM
+		(
+			ITEM_CODE
+				, CATEGORY_CODE
+				, ITEM_NAME
+				, ITEM_PRICE
+				, ITEM_INVENTORY
+				, ITEM_SALES
+				, ITEM_IMAGE
+				, ITEM_CONTENT
+				, ITEM_DISCOUNT
+				, ON_SALE
+				, ITEM_THUMBNAIL
+				<!-- <if test="options01 != null">
+				, OPTIONS_CODE
+				, OPTIONS_01
+				, OPTIONS_02
+				, OPTIONS_03
+				, OPTIONS_04
+				, OPTIONS_05
+				</if> -->
+		) VALUES (
+				(SELECT NVL(MAX(ITEM_CODE) + 1, 1) FROM SHOPPING_ITEM)
+				, #{category03Code}
+				, #{itemName}
+				, #{itemPrice}
+				, #{itemInventory}
+				, 0
+				, #{itemImage}
+				, #{itemContent}
+				, #{itemDiscount}
+				, 'Y'
+				, #{itemThumbnail}
+				<!-- <if test="options01 != null">
+				, (SELECT NVL(MAX(OPTIONS_CODE) + 1, 1) FROM SHOPPING_ITEM_OPTIONS)
+				, #{options01}
+				, #{options02}
+				, #{options03}
+				, #{options04}
+				, #{options05}
+				</if> -->
+		)
+	</insert>
+	
+</mapper>
